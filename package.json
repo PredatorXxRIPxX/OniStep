@@ -12,6 +12,7 @@
     "framer-motion": "^11.2.13",
     "next": "14.2.4",
     "react": "^18",
+    "react-awesome-typewriter": "^1.0.7",
     "react-dom": "^18"
   },
   "devDependencies": {
