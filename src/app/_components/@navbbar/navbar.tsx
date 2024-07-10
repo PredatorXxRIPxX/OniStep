@@ -24,7 +24,7 @@ function  Navbar(){
 
 
     return (
-        <nav className={`w-screen  ${blured?'bg-[#222] opacity-30':'bg-transparent'} p-4 flex items-center justify-center fixed top-0 z-20`}>
+        <nav className={`w-screen  ${blured?' before:content-[""] before:absolute before:inset-0 before:backdrop-blur-sm before:bg-[#333]/50 before:z-[-1]':'bg-transparent'} p-4 flex items-center justify-center sticky top-0 z-20`}>
             <div className='flex items-center justify-between border-3 border-solid border-red-600 w-full pl-2 pr-2'>
                 <div className='flex items-center'>
                     <Image src='/public/LOGOseullarge 1.svg' alt='logo' width={50} height={50}/>
