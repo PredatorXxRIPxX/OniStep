@@ -15,7 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         varela: ["Varela", "sans-serif"],
-        FjallaOne: ["Fjalla One", "sans-serif"],
+        FjallaOne: ["FjallaOne", "sans-serif"],
       }
     },
   },

@@ -4,6 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Varela&display=swap');
 
+@font-face {
+  font-family: 'FjallaOne';
+  src: url('/fonts/Fjalla_one/FjallaOne-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Varela';
+  src: url('/fonts/Varela/Varela-regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .font-fjalla {
   font-family: 'Fjalla One', sans-serif;
 }

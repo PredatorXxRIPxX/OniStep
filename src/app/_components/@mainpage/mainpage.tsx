@@ -5,17 +5,17 @@ import ReactAwesomeTypewriter from "react-awesome-typewriter";
 function Mainpage() {
     const options = [
 
-        [{ text: "Photoshop", classNames: "text-5xl font-bold font-FjallaOne" },],
-        [{ text: "Unity" , classNames: "text-5xl font-bold font-FjallaOne" },],
-        [{ text: "Blender" , classNames: "text-5xl font-bold font-FjallaOne" },],
-        [{ text: "Premiere Pro" , classNames: "text-5xl font-bold font-FjallaOne" },],
+        [{ text: "Photoshop", classNames: "text-6xl font-bold font-FjallaOne" },],
+        [{ text: "Unity" , classNames: "text-6xl font-bold font-FjallaOne" },],
+        [{ text: "Blender" , classNames: "text-6xl font-bold font-FjallaOne" },],
+        [{ text: "Premiere Pro" , classNames: "text-6xl font-bold font-FjallaOne" },],
     ];
 
     return (
         <div className="text-center mb-20 mt-20">
-            <h1 className="font-bold font-fjalla text-6xl text-center text-white">
+            <h1 className="font-bold font-FjallaOne text-6xl text-center text-white">
                 Let us guide your clicks,<br /><br />
-                in <span className="bg-clip-text text-transparent bg-gradient-to-r font-fjalla from-[#EB88F6] to-[#EB48A2]">
+                in <span className="bg-clip-text text-transparent bg-gradient-to-r font-FjallaOne from-[#EB88F6] to-[#EB48A2]">
                     <ReactAwesomeTypewriter
                         options={options}
                         backwardSpeed={80}
