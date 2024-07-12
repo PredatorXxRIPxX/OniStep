@@ -8,9 +8,9 @@ export default async function Container({props}:{props:{header:string,descriptio
                     <source src={props.videoUrl} type="video/mp4" />
                 </video>
             </div>
-            <div className={`flex-col h-full w-full items-center justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
+            <div className={`flex-col h-full w-full items-center font-fjalla justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
                 <h1 className="text-white text-4xl font-bold mt-5 mb-5">{props.header}</h1>
-                <p className="text-white font-xl font-semibold">{props.description}</p>
+                <p className="text-white font-xl font-semibold font-varela">{props.description}</p>
             </div>
         </div>
     )

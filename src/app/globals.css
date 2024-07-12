@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Varela&display=swap');
+
+.font-fjalla {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.font-varela {
+  font-family: 'Varela', sans-serif;
+}
