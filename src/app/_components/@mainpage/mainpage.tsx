@@ -6,13 +6,9 @@ function Mainpage() {
     const options = [
 
         [{ text: "Photoshop", classNames: "text-5xl font-bold" },],
-        [{ text: "Illustrator" , classNames: "text-5xl font-bold" },],
-        [{ text: "After Effects" , classNames: "text-5xl font-bold" },],
+        [{ text: "Unity" , classNames: "text-5xl font-bold" },],
+        [{ text: "Blender" , classNames: "text-5xl font-bold" },],
         [{ text: "Premiere Pro" , classNames: "text-5xl font-bold" },],
-        [{ text: "Lightroom" , classNames: "text-5xl font-bold" },],
-        [{ text: "Figma" , classNames: "text-5xl font-bold" },],
-        [{ text: "Canva" , classNames: "text-5xl font-bold" },],
-        [{ text: "And More ...", classNames: "text-5xl font-bold"  }]
     ];
 
     return (

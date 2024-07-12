@@ -13,7 +13,7 @@ const AppSlider = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 16000,
+    speed: 10000,
     slidesToShow: imageList.length,
     slidesToScroll: imageList.length,
     autoplay: true,
@@ -22,12 +22,14 @@ const AppSlider = () => {
   };
 
   return (
-    <div className="w-full flex-col items-center justify-center mt-10">
-      <Slider {...settings} className="p-6 flex items-center w-full">
+    <div className="w-full flex-col items-center justify-center mt-10  border-2 border-solid border-red-950">
+      <center>
+
+      <Slider {...settings} className="mb-10 flex items-center w-3/4 ">
         {
           imageList.map((url:string)=>{
             return (
-              <div className="w-full h-full">
+              <div className="w-[100px] h-[100px] flex items-center justify-center border-2 border-green-800 border-solid">
                 <Image src={url} alt={"image"} width={50} height={50} layout="responsive"/>
               </div>
               )
@@ -35,6 +37,7 @@ const AppSlider = () => {
           )
         }
       </Slider>
+      </center>
       <p className="font-bold text-white text-4xl text-center">
         More than <span className=" text-3xl text-[#E97B4D] font-bold">20+</span> supported Software
       </p>

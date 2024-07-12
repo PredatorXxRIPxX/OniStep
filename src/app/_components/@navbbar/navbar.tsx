@@ -43,9 +43,9 @@ function  Navbar(){
     return (
         <nav className={`w-screen  ${blured?' before:content-[""] before:absolute before:inset-0 before:backdrop-blur-sm before:bg-[#333]/50 before:z-[-1]':'bg-transparent'} pl-6 pr-6 pt-4 pb-4 flex items-center justify-center sticky top-0 z-20 `}>
             <div className='flex items-center justify-between border-3 border-solid border-red-600 w-full pl-2 pr-2'>
-                <div className='flex items-center'>
+                <div className='flex items-center ml-10'>
                     <Image src={Onistep} alt='logo' width={50} height={50}/>
-                    <p className=' text-white font-bold text-2xl'>onistep</p>
+                    <p className=' text-white font-bold text-2xl mb-7 ml-2'>OniStep</p>
                 </div>
                 {
                     !isMobile?

@@ -4,7 +4,7 @@ export const cardData = [
     {
         title:"Photoshop Courses",
         iconUrl:"/assets/image 1.svg",
-        imageUrl:"/assets/image 1.svg",
+        imageUrl:"/public/assets/Logo_Blender.svg.png",
         level:levelTypes.beginner,
     },
     {
