@@ -1,11 +1,42 @@
+"use client"
 import React from "react";
 import { levelTypes } from "@/app/_types/levelTypes";
 import Image from "next/image";
 import Photoshop from "/public/assets/image 1.svg";
+import { motion,useInView,useAnimation } from "framer-motion";
+import { useEffect,useRef } from "react";
+
 const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string,level:levelTypes}})=>{
+    const currentContainer = useRef<any>(null);
+    const currentContainerView = useInView(currentContainer,{once:true});
+    const mainControl = useAnimation();
+
+    useEffect(() => {
+        if(currentContainerView){
+            mainControl.start("visible");
+        }
+    }, [currentContainerView]);
+
+    const animationVariant = {
+        hidden:{
+            opacity:0,
+            x:-100
+        },
+        visible:{
+            opacity:1,
+            x:0,
+            transition:{
+                delay:0,
+                duration:2,
+                type:"spring",
+                stiffness:260,
+            }
+        }
+    }
+
     return(
-        <div>
-            <div className="rounded-3xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg">
+        <motion.div variants={animationVariant} initial={animationVariant.hidden} animate={mainControl}>
+            <div ref={currentContainer} className="rounded-3xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg">
                 <div className={`h-full w-full p-2 mb-2 `}>
                     <Image src={Photoshop} alt="image Course" className="w-full h-full" width={10} height={10}/>
                 </div>
@@ -17,7 +48,7 @@ const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string
                     <p className="text-gray-400 font-semibold text-left pl-4 mt-2 mb-2 font-lg">{props.level}.courses</p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
