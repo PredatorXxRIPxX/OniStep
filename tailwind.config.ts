@@ -14,8 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        varela: ["Varela", "sans-serif"],
-        FjallaOne: ["FjallaOne", "sans-serif"],
+        varela: ['var(--varela)', "sans-serif"],
+        FjallaOne: ['var(--fjalla-one)', "sans-serif"],
       }
     },
   },

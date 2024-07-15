@@ -36,9 +36,9 @@ const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string
 
     return(
         <motion.div variants={animationVariant} initial={animationVariant.hidden} animate={mainControl}>
-            <div ref={currentContainer} className="rounded-3xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg">
-                <div className={`h-full w-full p-2 mb-2 `}>
-                    <Image src={Photoshop} alt="image Course" className="w-full h-full" width={10} height={10}/>
+            <div ref={currentContainer} className="rounded-xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg">
+                <div className={`h-full w-full p-2 mb-2 rounded-xl overflow-hidden`}>
+                    <Image src={props.imgUrl} alt="image Course" className="w-full h-full rounded-2xl" layout="responsive" width={100} height={100}/>
                 </div>
                 <div className="h-1/4 pl-2">
                     <Image src={props.iconUrl} alt="icon Course" className="w-8 h-8" width={10} height={10}/>

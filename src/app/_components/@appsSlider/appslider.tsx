@@ -8,43 +8,45 @@ import { imagesUrl } from "@/app/_data/data";
 
 const AppSlider = () => {
   const imageList = imagesUrl;
-
+  console.log(imageList);
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: imageList.length,
-    slidesToScroll: imageList.length,
+    slidesToShow: 12,
+    slidesToScroll: 1, 
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 0,
     cssEase: "linear",
-    arrows:false,
+    arrows: false,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3, // Adjust based on the number of slides visible at this breakpoint
+                slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1, // Scroll one slide at a time
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1 // Scroll one slide at a time
+            }
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
     ]
-  };
+};
+
 
   return (
     <div className="w-full flex flex-col items-center justify-center mt-10">
@@ -66,8 +68,8 @@ const AppSlider = () => {
           </div>
         ))}
       </Slider>
-      <p className="font-bold text-white text-4xl text-center">
-        More than <span className="text-3xl text-[#E97B4D] font-bold">20+</span> supported Software
+      <p className="font-bold text-white text-4xl text-center font-varela">
+        More than <span className="text-3xl text-[#E97B4D] font-bold font-FjallaOne">20+</span> supported Software
       </p>
     </div>
   );

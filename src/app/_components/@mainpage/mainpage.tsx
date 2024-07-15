@@ -15,8 +15,8 @@ function Mainpage() {
 
 
     return (
-        <div className="text-center mb-20 mt-20">
-            <motion.h1 className="font-bold font-FjallaOne text-6xl text-center text-white">
+        <div className="text-center mb-20 mt-20 font-FjallaOne">
+            <motion.h1 className={`font-bold  text-6xl text-center text-white`}>
                 Let us guide your clicks,<br /><br />
                 in <span className="bg-clip-text text-transparent bg-gradient-to-r font-FjallaOne from-[#EB88F6] to-[#EB48A2]">
                     <ReactAwesomeTypewriter
