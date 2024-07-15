@@ -24,7 +24,7 @@ export default function Home() {
           <div className=" grid grid-cols-4 grid-rows-1 gap-2 w-full p-4">
             {
               cardData.map(({title,imgUrl,iconUrl,level}:any)=>{
-                return CardContainer({props:{title,imgUrl,iconUrl,level}})
+                return <CardContainer props={{title,imgUrl,iconUrl,level}}/>
               })
             }
           </div>

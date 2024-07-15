@@ -9,7 +9,6 @@ function  Navbar(){
     const [isMobile,setMobile] = useState(false);
      useEffect(() => {
     const handleScroll = () => {
-        console.log(window.scrollY)
       if (window.scrollY > 0) {
         setBlured(true)
       } else {

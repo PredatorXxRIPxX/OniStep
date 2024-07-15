@@ -1,4 +1,4 @@
-import ExempleImage from "../../../../public/assets/bonne taille 2 amélioré 1 (1).png"
+import ExempleImage from "../../../../public/bonne taille 2 amélioré 1 (1).png"
 import Image from "next/image";
 function VideoSection({props}:{props:{url:string}}) {
   return (
