@@ -12,24 +12,57 @@ const AppSlider = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 10000,
     slidesToShow: imageList.length,
     slidesToScroll: imageList.length,
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 2000,
     cssEase: "linear",
-    arrows: false,
+    arrows:false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
-    <div className="w-full flex flex-col items-center justify-center mt-10 ">
+    <div className="w-full flex flex-col items-center justify-center mt-10">
       <Slider {...settings} className="mb-10 flex items-center w-3/4">
         {imageList.map((url: string, index: number) => (
           <div
             key={index}
-            className="relative  w-[50px] h-[50px] grid items-center "
+            className="relative w-[50px] h-[50px] grid items-center justify-center p-4"
           >
-            <Image src={url} alt={`image-${index}`} layout="fill" objectFit="cover" />
+            <div className="ml-5 mr-5"></div>
+            <div className="w-full h-full ml-2 mr-2">
+              <Image
+                src={url}
+                alt="app"
+                layout="fill"
+              />          
+            </div>
+            <div className="ml-5 mr-5"></div>
           </div>
         ))}
       </Slider>

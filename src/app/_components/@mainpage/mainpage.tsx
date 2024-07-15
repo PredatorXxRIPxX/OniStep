@@ -16,11 +16,7 @@ function Mainpage() {
 
     return (
         <div className="text-center mb-20 mt-20">
-            <motion.h1 initial={{opacity:0,x:-200}} animate={{opacity:1,x:0,transition:{
-                delay:1,
-                duration:1
-
-            }}} className="font-bold font-FjallaOne text-6xl text-center text-white">
+            <motion.h1 className="font-bold font-FjallaOne text-6xl text-center text-white">
                 Let us guide your clicks,<br /><br />
                 in <span className="bg-clip-text text-transparent bg-gradient-to-r font-FjallaOne from-[#EB88F6] to-[#EB48A2]">
                     <ReactAwesomeTypewriter
@@ -34,17 +30,12 @@ function Mainpage() {
                     />
                 </span>
             </motion.h1>
-            <motion.p initial={{y:-100,opacity:0}} animate={{opacity:1,y:0,transition:{
-                delay:2,
-                duration:1,
-                type:"spring",
-                stiffness:100
-            }}} className="text-2xl font-medium text-white mt-10 font-varela">
+            <motion.p className="text-2xl font-medium text-white mt-10 font-varela">
                 Onistep is your Software Assistant. Ask it any question 
             </motion.p>
             <center>
                 <motion.button initial={{opacity:0,scale:0}} animate={{opacity:1,scale:1,transition:{
-                    delay:3,
+                    delay:.5,
                     duration:1,
                     type:"spring",
                     stiffness:100
