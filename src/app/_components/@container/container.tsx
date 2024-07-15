@@ -43,8 +43,8 @@ export default function Container({props}:{props:{header:string,description:stri
                     </video>
                 </div>
                 <div className={`flex-col h-full w-full items-center font-fjalla justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
-                    <h1 className="text-white text-4xl font-bold mt-5 mb-5">{props.header}</h1>
-                    <p className="text-white font-xl font-semibold font-varela">{props.description}</p>
+                    <h1 className="text-white text-4xl mt-5 mb-5 font-FjallaOne font-medium">{props.header}</h1>
+                    <p className="text-white font-xl font-medium font-varela">{props.description}</p>
                 </div>
             </div>
         </motion.div>

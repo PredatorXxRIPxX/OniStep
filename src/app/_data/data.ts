@@ -2,27 +2,27 @@ import { levelTypes } from "../_types/levelTypes";
 
 export const cardData = [
     {
-        title:"Photoshop Courses",
-        iconUrl:"/assets/image 1.svg",
-        imageUrl:"/public/assets/Logo_Blender.svg.png",
+        title:"Visual Studio Courses",
+        iconUrl:"/courses/page1.jpg",
+        imgUrl:"/courses/page1.jpg",
+        level:levelTypes.beginner,
+    },
+    {
+        title:"Unity Courses",
+        iconUrl:"/courses/page2.jpg",
+        imgUrl:"/courses/page2.jpg",
         level:levelTypes.beginner,
     },
     {
         title:"Photoshop Courses",
-        iconUrl:"/assets/image 1.svg",
-        imageUrl:"/assets/image 1.svg",
+        iconUrl:"/courses/page3.jpg",
+        imgUrl:"/courses/page3.jpg",
         level:levelTypes.beginner,
     },
     {
-        title:"Photoshop Courses",
-        iconUrl:"/assets/image 1.svg",
-        imageUrl:"/assets/image 1.svg",
-        level:levelTypes.beginner,
-    },
-    {
-        title:"Photoshop Courses",
-        iconUrl:"/assets/image 1.svg",
-        imageUrl:"/assets/image 1.svg",
+        title:"vs code Courses",
+        iconUrl:"/courses/page4.jpg",
+        imgUrl:"/courses/page4.jpg",
         level:levelTypes.beginner,
     },
 ]

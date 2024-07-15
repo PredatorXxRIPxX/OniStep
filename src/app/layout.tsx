@@ -1,6 +1,27 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import localFont from "next/font/local"
 import Navbar from "./_components/@navbbar/navbar";
+
+
+const fjallaOne = localFont({
+  src:[
+    {
+      path: "../../public/fonts/Fjalla_One/FjallaOne-Regular.ttf",
+    }
+  ],
+  variable: '--fjalla-one'
+});
+
+const varela = localFont({
+  src:[
+    {
+      path: "../../public/fonts/Varela/Varela-Regular.ttf",
+    }
+  ],
+  variable: '--varela'
+})
+
 
 export const metadata: Metadata = {
   title: "Onistep",
@@ -14,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-b from-[#1E1159] to-[#6C67F2] overflow-x-hidden m-auto">
+      <body className={`${fjallaOne.variable} ${varela.variable}  bg-gradient-to-b from-[#1E1159] to-[#6C67F2] overflow-x-hidden m-auto`}>
         <Navbar />
         {children}
       </body>
