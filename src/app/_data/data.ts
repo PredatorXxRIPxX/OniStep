@@ -1,4 +1,4 @@
-import { levelTypes } from "../_types/levelTypes";
+import { levelTypes } from "../_components/_types/levelTypes";
 
 export const cardData = [
     {

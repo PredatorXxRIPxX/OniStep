@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { levelTypes } from "@/app/_types/levelTypes";
+import { levelTypes } from "@/app/_components/_types/levelTypes";
 import Image from "next/image";
 import Photoshop from "/public/assets/image 1.svg";
 import { motion,useInView,useAnimation } from "framer-motion";
@@ -36,7 +36,7 @@ const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string
 
     return(
         <motion.div variants={animationVariant} initial={animationVariant.hidden} animate={mainControl}>
-            <div ref={currentContainer} className="rounded-xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg">
+            <div ref={currentContainer} className="rounded-xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg transition-all duration-300 hover:scale-110">
                 <div className={`h-full w-full p-2 mb-2 rounded-xl overflow-hidden`}>
                     <Image src={props.imgUrl} alt="image Course" className="w-full h-full rounded-2xl" layout="responsive" width={100} height={100}/>
                 </div>

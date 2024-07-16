@@ -1,7 +1,6 @@
 import AppSlider from "../_components/@appsSlider/appslider"
 import CardContainer from "../_components/@cardContainer/cardcontainer"
 import Container from "../_components/@container/container"
-import Footer from "../_components/@footer/footer"
 import VideoSection from "../_components/@videosection/videosection"
 import Btn from "../_components/btn/btn"
 import { cardData } from "../_data/data"
@@ -9,8 +8,8 @@ import { cardData } from "../_data/data"
 export default function InfoPages(){
     return (
         <>
-            <div className=" w-full flex items-center justify-center  overflow-x-hidden">
-        <VideoSection props={{url:"45554"}} />
+          <div className=" w-full flex items-center justify-center  overflow-x-hidden">
+        <VideoSection props={{url:"/videos/Unity_Final.mp4"}} />
       </div>
       <AppSlider />
       <div className="p-10">
