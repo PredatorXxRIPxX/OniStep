@@ -37,7 +37,7 @@ type BubblesProps = {
     description: string
 }
 
-export function Bubbles({ icon, description }: BubblesProps) {
+function Bubbles({ icon, description }: BubblesProps) {
     
 
 
