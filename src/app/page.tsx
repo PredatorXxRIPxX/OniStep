@@ -1,5 +1,5 @@
 import Mainpage from "./_components/@mainpage/mainpage";
-import InfoPages from "./@infoPage/page";
+import InfoPages from "./_components/@infoPage/page";
 
 
 
