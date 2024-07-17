@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Btn from '../btn/btn';
 import Onistep from '../../../../public/assets/LOGOseullarge 1.svg';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 function  Navbar(){
     const [blured, setBlured] = useState(false);
@@ -43,8 +44,10 @@ function  Navbar(){
         <nav className={`w-screen  ${blured?' before:content-[""] before:absolute before:inset-0 before:backdrop-blur-sm before:bg-[#333]/50 before:z-[-1]':'bg-transparent'} pl-6 pr-6 pt-4 pb-4 flex items-center justify-center sticky top-0 z-20 `}>
             <div className='flex items-center justify-between border-3 border-solid border-red-600 w-full pl-2 pr-2'>
                 <div className='flex items-center ml-10'>
+                  <Link href={'/'} className='flex items-center'>
                     <Image src={Onistep} alt='logo' width={50} height={50}/>
                     <p className=' text-white font-bold text-2xl mb-4 ml-2'>OniStep</p>
+                  </Link>
                 </div>
                 {
                     !isMobile?
@@ -56,10 +59,12 @@ function  Navbar(){
                         <a href='#' className='text-white font-semibold'>Courses</a>
                     </li>
                     <li className='text-xl pl-2 pr-2'>
-                        <a href='#' className='text-white font-semibold'>Pricing</a>
+                        <Link href={'/price'} className='text-white font-semibold'>Pricing</Link>
                     </li>
                     <li className='text-xl pl-2 pr-2'>
-                        <a href='#' className='text-white font-semibold'>Contact</a>
+                      <Link href={'/contact'} className='text-white font-semibold'>
+                        Contact
+                      </Link>
                     </li>
                     <li>
                         <Btn text="Get started"/>
