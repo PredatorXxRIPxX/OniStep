@@ -49,8 +49,8 @@ export default function InfoPages(){
       <div className="text-center text-white">
         <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
         <div className="h-10"></div>
-        <p className="font-bold text-5xl font-FjallaOne">Try it yourself!</p>
-        <div className="mt-20 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
+        <p className="font-normal text-5xl font-FjallaOne mb-8">Try it yourself!</p>
+        <div className="mt-15 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
           <Btn text="Download now" />
         </div>
       </div>

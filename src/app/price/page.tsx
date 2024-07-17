@@ -1,5 +1,6 @@
 import Container from "../_components/@container/container";
 import PricingCard from "../_components/@pricingCard/pricingcard";
+import Btn from "../_components/btn/btn";
 
 const descriptionMajor = (
     <>
@@ -19,16 +20,26 @@ const descriptionMajor = (
 
 export default function Price(){
     return (
-        <div className="mt-10">
-            <h1 className='text-4xl font-bold text-white text-center font-FjallaOne mt-4 mb-6'>A little Price for a greate value</h1>
-            <p className='text-xl font-bold text-white text-center font-varela mb-10'>onistep is your guidens</p>
+        <div className="mt-20">
+            <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A little Price for a great value</h1>
+            <p className='text-2xl font-bold text-white text-center font-varela mb-10 mt-10'>Choose the right price for your needs.</p>
             <div className="w-full grid grid-cols-3 grid-rows-1 gap-10 p-10">
-                <PricingCard title="Starter" subtitle="For infividuals" price="Free" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="take it now!"/>
-                <PricingCard title="Business" subtitle="For teams" price="12.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="take it now!"/>
-                <PricingCard title="For scaling teams" subtitle="For Big Project" price="39.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="take it now!"/>
+                <PricingCard title="Lite" subtitle="For basics" price="Free" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>
+                <PricingCard title="Starter" subtitle="For infividuals" price="12.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>
+                <PricingCard title="Business" subtitle="For teams" price="39.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>
             </div>
+            <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A little Price for a great value</h1>
+            <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>Choose the right price for your needs.</p>
             <div className="p-10">
                 <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }} />
+            </div>
+            <div className="text-center text-white">
+                <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
+                <div className="h-10"></div>
+                    <p className="font-normal text-5xl font-FjallaOne mb-8">Try it yourself!</p>
+                <div className="mt-15 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
+                    <Btn text="Download now" />
+                </div>
             </div>
         </div>
     )

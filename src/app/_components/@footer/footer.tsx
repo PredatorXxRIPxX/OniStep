@@ -1,4 +1,9 @@
 import Image from "next/image";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import XIcon from '@mui/icons-material/X';
+
 const Footer = ()=>{
     return (
         <div className=" bg-gradient-to-r from-[#6A30B2] to-[#170D44] w-full flex-col items-center ">
@@ -6,30 +11,30 @@ const Footer = ()=>{
                 <div className="h-3/4 w-1/2 flex items-center justify-center">
                     <div className="grid grid-cols-4 grid-rows-1 text-white text-left gap-2 p-2">
                         <div className="flex-col p-4">
-                            <h1 className="font-bold text-2xl" >Courses</h1>
-                            <ul>
-                                <li>About</li>
-                                <li>Features</li>
-                                <li>News</li>
-                                <li>FAQ</li>
+                            <h1 className="font-bold text-2xl" >Connections</h1>
+                            <ul className="flex items-center justify-around mt-5">
+                                <li><GitHubIcon /></li>
+                                <li><FacebookIcon /></li>
+                                <li><LinkedInIcon /></li>
+                                <li><XIcon /></li>
                             </ul>
                         </div>
                         <div className="flex-col p-4">
-                            <h1 className="font-bold text-2xl">Compagnier</h1>
+                            <h1 className="font-bold text-2xl" >Courses</h1>
                             <ul>
-                                <li>About</li>
-                                <li>Features</li>
-                                <li>News</li>
-                                <li>FAQ</li>
+                                <li>Photoshop</li>
+                                <li>Blender</li>
+                                <li>Unity</li>
+                                <li>Davinci Resolve</li>
                             </ul>
                         </div>
                         <div className="flex-col p-4">
                             <h1 className="font-bold text-2xl">Resources</h1>
                             <ul>
-                                <li>About</li>
                                 <li>Features</li>
-                                <li>News</li>
-                                <li>FAQ</li>
+                                <li>Courses</li>
+                                <li>Pricing</li>
+                                <li>Contact</li>
                             </ul>
                         </div>
                         <div className="flex-col p-4">
