@@ -53,10 +53,10 @@ function  Navbar(){
                     !isMobile?
                     <ul className='flex items-center'>
                     <li className='text-xl pl-2 pr-2'>
-                        <a href='#' className='text-white font-semibold'>Features</a>
+                        <Link href={'/'} className='text-white font-semibold'>Home</Link>
                     </li>
                     <li className='text-xl pl-2 pr-2'>
-                        <a href='#' className='text-white font-semibold'>Courses</a>
+                        <Link href={'/courses'} className='text-white font-semibold'>Courses</Link>
                     </li>
                     <li className='text-xl pl-2 pr-2'>
                         <Link href={'/price'} className='text-white font-semibold'>Pricing</Link>

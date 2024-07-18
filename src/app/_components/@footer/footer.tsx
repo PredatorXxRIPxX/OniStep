@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
+import Link from "next/link";
 
 const Footer = ()=>{
     return (
@@ -40,10 +41,10 @@ const Footer = ()=>{
                         <div className="flex-col p-4">
                             <h1 className="font-bold text-2xl">Policies</h1>
                             <ul>
-                                <li>About</li>
-                                <li>Features</li>
-                                <li>News</li>
-                                <li>FAQ</li>
+                                <li><Link href={"/security"}>security</Link></li>
+                                <li><Link href={'/legaleNotice'}> Legale Notice</Link></li>
+                                <li><Link href={'/privacy'}>Privacy</Link></li>
+                                <li><Link href={'/termsofsales'}>Terms of Sales</Link></li>
                             </ul>
                         </div>
                     </div>

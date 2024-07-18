@@ -7,7 +7,6 @@ export default function Container({props}:{props:{header:string,description:Reac
     const currentContainer = useRef<any>(null);
     const isInView = useInView(currentContainer,{once:true});
     const mainControl = useAnimation();
-
     useEffect(() => {
         if(isInView){
             mainControl.start("visible");

@@ -38,8 +38,9 @@ export default function InfoPages(){
           <p className="font-medium text-center text-xl font-varela">They’re tailor made for newcomer who want practice.</p>
           <div className=" grid grid-cols-4 grid-rows-1 gap-2 w-full p-4">
             {
-              cardData.map(({title,imgUrl,iconUrl,level},index:any)=>{
-                return <CardContainer key={index} props={{title,imgUrl,iconUrl,level}}/>
+              cardData.map(({id,title,imgUrl,iconUrl,level},index:any)=>{
+                if(index>3) return;
+                return <CardContainer key={index} props={{id,title,imgUrl,iconUrl,level}}/>
               })
             }
           </div>

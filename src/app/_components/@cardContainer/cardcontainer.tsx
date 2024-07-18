@@ -5,12 +5,13 @@ import Image from "next/image";
 import Photoshop from "/public/assets/image 1.svg";
 import { motion,useInView,useAnimation } from "framer-motion";
 import { useEffect,useRef } from "react";
+import { useRouter } from "next/navigation";
 
-const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string,level:levelTypes}})=>{
+const CardContainer = ({props}:{props:{id:string,imgUrl:string,title:string,iconUrl:string,level:levelTypes}})=>{
     const currentContainer = useRef<any>(null);
     const currentContainerView = useInView(currentContainer,{once:true});
     const mainControl = useAnimation();
-
+    const router = useRouter();
     useEffect(() => {
         if(currentContainerView){
             mainControl.start("visible");
@@ -34,8 +35,13 @@ const CardContainer = ({props}:{props:{imgUrl:string,title:string,iconUrl:string
         }
     }
 
+    const changeDirection =()=>{
+        console.log("clicked")
+        router.push(`/courses/${props.id}`)
+    }
+
     return(
-        <motion.div variants={animationVariant} initial={animationVariant.hidden} animate={mainControl}>
+        <motion.div variants={animationVariant} initial={animationVariant.hidden} className="cursor-pointer" animate={mainControl} onClick={()=>changeDirection()}>
             <div ref={currentContainer} className="rounded-xl bg-white m-4 flex-col justify-around shadow-lg shadow-black drop-shadow-lg transition-all duration-300 hover:scale-110">
                 <div className={`h-full w-full p-2 mb-2 rounded-xl overflow-hidden`}>
                     <Image src={props.imgUrl} alt="image Course" className="w-full h-full rounded-2xl" layout="responsive" width={100} height={100}/>
