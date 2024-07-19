@@ -46,7 +46,7 @@ export default function Details({params}:{params:{CourseId:string}}){
             
                 <div className='grid grid-cols-2 gap-5 items-center p-20 text-white bg-[#222]'>
                 <div>
-                        <h1 className='font-FjallaOne text-5xl mb-5'>{data?.title}</h1>
+                        <h1 className='font-FjallaOne text-5xl mb-5'>{course?.title}</h1>
                         <p className='font-varela text-xl'>{course?.description}</p>
                         <p className='font-varela font-bold  text-2xl text-[#6A30B2] pt-5'>{data?.level}</p>
                 </div>
@@ -64,7 +64,7 @@ export default function Details({params}:{params:{CourseId:string}}){
                         </div>
                     </div>
                     <div className='w-full bg-[#f0f3ff] rounded-lg p-8 h-3/4 mt-10 col-span-3'>
-                        <h1 className='font-FjallaOne text-4xl text-black text-center '>{data?.title}</h1>
+                        <h1 className='font-FjallaOne text-4xl text-black text-center '>{course?.title}</h1>
                         <div className='p-4'>
                             <div className=" rounded-lg">
                                 <Image src={'/assets/bonnetaille.png'} alt='bonnet' layout="responsive" width={100} height={100} className='rounded-xl'/>
