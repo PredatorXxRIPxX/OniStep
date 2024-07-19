@@ -10,18 +10,20 @@ import {
 } from '@chakra-ui/react';
 
 
-import {cardData,courseData} from '../../_data/data';
+import {cardData,apps} from '../../_data/data';
 import Image from 'next/image';
 import Btn from '../../_components/btn/btn';
 import Link from 'next/link';
+import { Chapter,ChapterDescription,AppInfo } from '../../_data/data';
 
 
 
 export default function Details({params}:{params:{CourseId:string}}){
-    function getChapters({details}:{details:{chapterTitle:string,chapterDescription:string}}){
+    function getChapters({details}:{details:Chapter}){
         return (
+            <div className='w-full'>
             <Accordion allowMultiple>
-                <AccordionItem className='bg-white border-1 border-black border-solid'>
+                <AccordionItem className='bg-white border-1 border-black border-solid w-full'>
                     <h2>
                         <AccordionButton>
                             <Box flex="1" textAlign="left">
@@ -31,15 +33,29 @@ export default function Details({params}:{params:{CourseId:string}}){
                         </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                        {details.chapterDescription}
+                        {
+                            details.chapterDescription.map((description:ChapterDescription)=>{
+                                return(
+                                    <div className='p-4 flex items-center justify-between w-full'>
+                                        <h1 className='font-varela text-lg pl-8 flex items-center '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-4">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                            </svg>
+                                            {description.title}
+                                        </h1>
+                                        <p className='font-varela text-lg pr-8'>{description.timeline}</p>
+                                    </div>
+                                )
+                            })
+                        }
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
+            </div>
         )
     }
 
     
-    const course = courseData.find((course)=>course.id === params.CourseId);
+    const course = apps.find((course)=>course.id === params.CourseId);
     const data = cardData.find((data)=>data.id === params.CourseId);
     return (
         <div>
@@ -59,7 +75,7 @@ export default function Details({params}:{params:{CourseId:string}}){
                 <div className='grid grid-cols-10 items-center justify-stretch p-10'>
                     <div className='p-8 w-full col-span-7'>
                         <h1 className='font-FjallaOne text-4xl text-white pl-4 pb-4'>Course Content</h1>
-                        <div className='p-4 rounded-md'>
+                        <div className='p-6 bg-white rounded-xl'>
                             {course?.details.map((details)=>getChapters({details}))}
                         </div>
                     </div>

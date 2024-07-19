@@ -183,24 +183,24 @@ export const imagesUrl = [
     "/assets/Official_unity_logo.png"
 ]
 
-interface ChapterDescription {
+export interface ChapterDescription {
     title: string;
     timeline: string;
 }
 
-interface Chapter {
+export interface Chapter {
     chapterTitle: string;
     chapterDescription: ChapterDescription[];
 }
 
-interface AppInfo {
+export interface AppInfo {
     id: string;
     title: string;
     description: string;
     details: Chapter[];
 }
 
-const apps: AppInfo[] = [
+export const apps: AppInfo[] = [
     {
         id: "1",
         title: "Unity",
