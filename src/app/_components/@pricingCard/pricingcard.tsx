@@ -21,7 +21,7 @@ export default function PricingCard({
         {title}
       </h1>
       <div className="text-center lg:text-left">
-        <p className="text-lg font-varela font-medium text-gray-600 ml-4 text-center lg:text-left">
+        <p className="text-lg font-varela font-medium text-gray-600 lg:ml-4 text-center lg:text-left">
           {subtitle}
         </p>
       </div>
