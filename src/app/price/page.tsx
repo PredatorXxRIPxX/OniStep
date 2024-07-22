@@ -23,7 +23,7 @@ export default function Price(){
         <div className="mt-20">
             <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A little Price for a great value</h1>
             <p className='text-2xl font-bold text-white text-center font-varela mb-10 mt-10'>Choose the right price for your needs.</p>
-            <div className="w-full grid grid-cols-3 grid-rows-1 gap-10 p-10">
+            <div className="w-full grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 gap-10 p-10">
                 <PricingCard title="Lite" subtitle="For basics" price="Free" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>
                 <PricingCard title="Starter" subtitle="For infividuals" price="12.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>
                 <PricingCard title="Business" subtitle="For teams" price="39.99$" features={['Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble','Screen recording & cam bubble']} buttonText="Enroll now"/>

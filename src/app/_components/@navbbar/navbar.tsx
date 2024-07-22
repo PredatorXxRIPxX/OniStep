@@ -42,7 +42,7 @@ function  Navbar(){
 
     return (
         <nav className={`w-screen  ${blured?' before:content-[""] before:absolute before:inset-0 before:backdrop-blur-sm before:bg-[#333]/50 before:z-[-1]':'bg-transparent'} pl-6 pr-6 pt-4 pb-4 flex items-center justify-center sticky top-0 z-20 `}>
-            <div className='flex items-center justify-between border-3 border-solid border-red-600 w-full pl-2 pr-2'>
+            <div className='flex items-center justify-between w-full lg:pl-2 pl-1 pr-2'>
                 <div className='flex items-center ml-10'>
                   <Link href={'/'} className='flex items-center'>
                     <Image src={Onistep} alt='logo' width={50} height={50}/>
@@ -51,7 +51,7 @@ function  Navbar(){
                 </div>
                 {
                     !isMobile?
-                    <ul className='flex items-center'>
+                    <ul className='flex items-center '>
                     <li className='text-xl pl-2 pr-2'>
                         <Link href={'/'} className='text-white font-semibold'>Home</Link>
                     </li>
@@ -70,9 +70,13 @@ function  Navbar(){
                         <Btn text="Get started"/>
                     </li>
                 </ul>
-                : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
+
+                : 
+                <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-8 text-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
+              </div>
               
                 }
             </div>

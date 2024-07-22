@@ -41,8 +41,8 @@ export default function Details({params}:{params:{CourseId:string}}){
                         {
                             details.chapterDescription.map((description:ChapterDescription)=>{
                                 return(
-                                    <div className='p-4 flex items-center justify-between w-full'>
-                                        <h1 className='font-varela text-lg pl-8 flex items-center '><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-4">
+                                    <div className='lg:p-4 mb-4 mt-4 flex items-center justify-between w-full'>
+                                        <h1 className='font-varela text-lg pl-8 flex items-center w-fit'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mr-4">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
                                             </svg>
                                             <p className='text-md'>
@@ -60,33 +60,31 @@ export default function Details({params}:{params:{CourseId:string}}){
             </div>
         )
     }
-
-    
     const course = apps.find((course)=>course.id === params.CourseId);
     const data = cardData.find((data)=>data.id === params.CourseId);
+
     return (
         <div>
-            
-                <div className='grid grid-cols-2 gap-5 items-center p-20 text-white bg-[#222]'>
+                <div className=' flex-col-reverse   lg:grid lg:grid-cols-2 gap-5 items-center p-20 text-white bg-[#222]'>
                 <div>
-                        <h1 className='font-FjallaOne text-5xl mb-5'>{course?.title}</h1>
+                        <h1 className=' font-FjallaOne text-5xl mb-5 w-fit'>{course?.title}</h1>
                         <p className='font-varela text-xl'>{course?.description}</p>
                         <p className='font-varela font-bold  text-2xl text-[#6A30B2] pt-5'>{data?.level}</p>
                 </div>
-                <div className='flex items-center justify-center'>
+                <div className='lg:flex lg:items-center lg:justify-center mt-10'>
                         <div className='rounded-xl border-4 border-solid border-[#ABAFDF] w-full h-full'>
                             <Image src={`${data?.imgUrl}`} alt={`${data?.id}`} layout="responsive" width={100} height={100} className='rounded-xl'/>
                         </div>
                 </div>
                 </div>
-                <div className='grid grid-cols-10 items-center justify-stretch p-10'>
-                    <div className='p-8 w-full col-span-7'>
+                <div className='grid lg:grid-cols-10 grid-cols-1 items-center justify-stretch lg:p-10 '>
+                    <div className='p-8 w-full lg:col-span-7 '>
                         <h1 className='font-FjallaOne text-4xl text-white pl-4 pb-4'>Course Content</h1>
                         <div className='p-6 bg-white rounded-xl'>
                             {course?.details.map((details)=>getChapters({details}))}
                         </div>
                     </div>
-                    <div className='w-full bg-[#f0f3ff] rounded-lg p-8 h-3/4 mt-10 col-span-3'>
+                    <div className='hidden lg:w-full lg:bg-[#f0f3ff] lg:rounded-lg lg:p-8 lg:mt-10 lg:col-span-3 lg:h-fit'>
                         <h1 className='font-FjallaOne text-4xl text-black text-center '>{course?.title}</h1>
                         <div className='p-4'>
                             <div className=" rounded-lg">

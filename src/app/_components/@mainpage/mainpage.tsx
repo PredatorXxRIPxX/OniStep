@@ -24,7 +24,7 @@ function Mainpage() {
     
     return (
         <div className="text-center mb-20 mt-20 font-FjallaOne">
-            <motion.h1 className="text-7xl text-center text-white font-medium">
+            <motion.h1 className="text-4xl  lg:text-7xl lg:text-center text-white lg:font-medium">
                 Let us guide your clicks,
                 <br />
                 <br />
@@ -49,9 +49,9 @@ function Mainpage() {
             <motion.p className="text-2xl font-medium text-white mt-10 font-varela">
                 Onistep is your Software Assistant. Ask it any question
             </motion.p>
-            <center>
+            <center className="hidden lg:block">
                 <motion.button
-                    className="flex items-center mt-10 px-6 py-3 font-bold text-white bg-opacity-20 bg-white rounded-lg shadow-lg backdrop-blur hover:bg-opacity-30 transition-all duration-300"
+                    className="hidden lg:flex lg:items-center lg:mt-10 lg:px-6 lg:py-3 lg:font-bold lg:text-white lg:bg-opacity-20 lg:bg-white lg:rounded-lg lg:shadow-lg lg:backdrop-blur lg:hover:bg-opacity-30 lg:transition-all lg:duration-300"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                 >

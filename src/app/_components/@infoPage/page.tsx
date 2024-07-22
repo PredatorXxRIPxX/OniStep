@@ -37,7 +37,7 @@ export default function InfoPages(){
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>
           <p className="font-medium text-center text-xl font-varela">They’re tailor made for newcomer who want practice.</p>
-          <div className=" grid grid-cols-4 grid-rows-1 gap-2 w-full p-4">
+          <div className=" grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-1 gap-2 w-full p-4">
             {
               cardData.map(({id,title,imgUrl,iconUrl,level},index:any)=>{
                 if(index>3) return;
