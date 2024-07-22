@@ -84,7 +84,7 @@ export default function Details({params}:{params:{CourseId:string}}){
                             {course?.details.map((details)=>getChapters({details}))}
                         </div>
                     </div>
-                    <div className='hidden lg:w-full lg:bg-[#f0f3ff] lg:rounded-lg lg:p-8 lg:mt-10 lg:col-span-3 lg:h-fit'>
+                    <div className='hidden lg:block lg:w-full lg:bg-[#f0f3ff] lg:rounded-lg lg:p-8 lg:mt-10 lg:col-span-3 lg:h-fit'>
                         <h1 className='font-FjallaOne text-4xl text-black text-center '>{course?.title}</h1>
                         <div className='p-4'>
                             <div className=" rounded-lg">
