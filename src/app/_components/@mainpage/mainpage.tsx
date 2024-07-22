@@ -15,10 +15,10 @@ function Mainpage() {
     }, []);
 
     const options = [
-        [{ text: "Photoshop", classNames: "text-7xl font-medium font-FjallaOne" }],
-        [{ text: "Unity", classNames: "text-7xl font-medium font-FjallaOne" }],
-        [{ text: "Blender", classNames: "text-7xl font-medium font-FjallaOne" }],
-        [{ text: "Premiere Pro", classNames: "text-7xl font-medium font-FjallaOne" }],
+        [{ text: "Photoshop", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Unity", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Blender", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Premiere Pro", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
     ];
 
     

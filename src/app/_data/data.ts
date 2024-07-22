@@ -204,7 +204,7 @@ export const apps: AppInfo[] = [
     {
         id: "1",
         title: "Unity",
-        description: "In this course, you will learn to utilize Unity for game development. Covering everything from setting up projects to advanced debugging and deployment strategies.",
+        description: "In this comprehensive course, you will master the utilization of Unity for game development, starting from the foundational steps of setting up projects. You'll delve into the intricacies of designing engaging game mechanics and exploring Unity's robust suite of tools. As you progress, you'll gain proficiency in scripting with C#, enabling you to bring your game concepts to life with interactive and dynamic features. The course also covers advanced debugging techniques to ensure smooth and error-free gameplay. Additionally, you'll learn effective strategies for optimizing performance and preparing your game for deployment across various platforms. By the end of the course, you'll have the skills and confidence to create and publish your own polished games using Unity.",
         details: [
             {
                 chapterTitle: "Getting Started with Unity",
@@ -311,7 +311,7 @@ export const apps: AppInfo[] = [
     {
         id: "2",
         title: "Blender",
-        description: "In this course, you will learn to utilize Blender for 3D modeling and animation. Covering everything from setting up projects to advanced rendering techniques.",
+        description: "In this comprehensive course, you will learn to utilize Blender for 3D modeling and animation, starting with the essential steps of setting up your projects. You'll explore Blender's powerful interface and tools, enabling you to create detailed 3D models and bring them to life with animation. As you progress, you'll delve into more complex topics, such as texture mapping and rigging, to add realism and detail to your creations. The course also covers advanced rendering techniques, ensuring your final output is both stunning and efficient. Additionally, you'll learn about lighting and camera work to enhance the visual appeal of your animations. By the end of the course, you'll be equipped with the skills to produce professional-quality 3D models and animations using Blender",
         details: [
             {
                 chapterTitle: "Getting Started with Blender",
@@ -418,7 +418,7 @@ export const apps: AppInfo[] = [
     {
         id: "3",
         title: "Unreal Engine",
-        description: "In this course, you will learn to utilize Unreal Engine for game development. Covering everything from setting up projects to advanced debugging and deployment strategies.",
+        description: "In this course, you will learn to utilize Unreal Engine for game development, starting with the basics of setting up projects and navigating the interface. You'll delve into creating immersive environments and designing game mechanics using Unreal Engine's powerful tools. As you advance, you'll gain expertise in scripting with Blueprints and C++, allowing you to add complex interactions and functionality to your games. The course also covers advanced debugging techniques to help you troubleshoot and optimize your game effectively. You'll explore strategies for enhancing performance and ensuring smooth gameplay. Finally, you'll learn how to deploy your game across various platforms, preparing it for release to a wide audience. By the end of the course, you'll have the knowledge and skills to develop and publish professional-quality games using Unreal Engine.",
         details: [
             {
                 chapterTitle: "Getting Started with Unreal Engine",
@@ -525,7 +525,7 @@ export const apps: AppInfo[] = [
     {
         id: "4",
         title: "Excel",
-        description: "In this course, you will learn to utilize Excel for data management and analysis. Covering everything from setting up projects to advanced data visualization strategies.",
+        description: "In this course, you will learn to utilize Excel for data management and analysis, beginning with the basics of setting up and organizing projects. You'll explore essential functions and formulas that streamline data handling and calculations. As you progress, you'll delve into advanced techniques for data analysis, including pivot tables, data validation, and conditional formatting. The course also covers powerful data visualization strategies, teaching you how to create dynamic charts and graphs that effectively communicate your data insights. Additionally, you'll learn to automate tasks using macros and VBA, enhancing your productivity. By the end of the course, you'll be equipped with the skills to manage and analyze data proficiently, transforming raw data into meaningful information using Excel.",
         details: [
             {
                 chapterTitle: "Getting Started with Excel",
@@ -633,7 +633,7 @@ export const apps: AppInfo[] = [
     {
         id: "5",
         title: "Word",
-        description: "In this course, you will learn to utilize Word for document creation and management. Covering everything from basic formatting to advanced document features.",
+        description: "In this course, you will learn to utilize Microsoft Word for document creation and management, starting with the fundamentals of basic formatting. You'll become proficient in organizing and structuring your documents with styles, headers, and footers. As you advance, you'll explore advanced features such as mail merge, track changes, and comments, which are essential for collaborative work. The course also covers how to insert and format tables, images, and charts to enhance your documents visually. Additionally, you'll learn about advanced document features like creating indexes, table of contents, and using templates to streamline your workflow. By the end of the course, you'll have the skills to create professional, polished documents and manage them efficiently using Microsoft Word.",
         details: [
             {
                 chapterTitle: "Getting Started with Word",
@@ -740,7 +740,7 @@ export const apps: AppInfo[] = [
     {
         id: "6",
         title: "Da Vinci Resolve",
-        description: "In this course, you will learn to utilize Da Vinci Resolve for video editing and color grading. Covering everything from basic editing to advanced color correction techniques.",
+        description: "In this course, you will learn to utilize Da Vinci Resolve for video editing and color grading, starting with the basics of importing footage and organizing your projects. You'll explore essential editing techniques, including cutting, trimming, and adding transitions to create seamless videos. As you progress, you'll delve into more advanced features, such as working with multiple tracks, applying effects, and enhancing audio. The course also covers comprehensive color grading techniques, teaching you how to adjust exposure, balance colors, and create cinematic looks. You'll gain expertise in using advanced tools like nodes and scopes for precise color correction. By the end of the course, you'll be equipped with the skills to edit and color grade videos professionally, transforming raw footage into polished, visually stunning projects using Da Vinci Resolve.",
         details: [
             {
                 chapterTitle: "Getting Started with Da Vinci Resolve",
@@ -847,7 +847,7 @@ export const apps: AppInfo[] = [
     {
         id: "7",
         title: "Premiere Pro",
-        description: "In this course, you will learn to utilize Premiere Pro for professional video editing. Covering everything from basic editing to advanced effects and transitions.",
+        description: "In this course, you will learn to utilize Adobe Premiere Pro for professional video editing, starting with the basics of setting up your projects and importing footage. You'll explore fundamental editing techniques such as cutting, trimming, and organizing clips on the timeline. As you advance, you'll delve into more sophisticated aspects of video production, including working with multiple video and audio tracks, applying transitions, and incorporating advanced effects. The course will also cover color correction and grading to enhance the visual quality of your videos. Additionally, you'll learn how to create dynamic titles and graphics, and explore advanced features like keyframing and motion effects. By the end of the course, you'll be equipped with the skills to edit professional-quality videos using Adobe Premiere Pro, ready to tackle any video production project with confidence.",
         details: [
             {
                 chapterTitle: "Getting Started with Premiere Pro",
@@ -954,7 +954,7 @@ export const apps: AppInfo[] = [
     {
         id: "8",
         title: "Hitfilm",
-        description: "In this course, you will learn to utilize Hitfilm for video editing and visual effects. Covering everything from basic editing to advanced VFX techniques.",
+        description: "In this course, you will learn to utilize HitFilm for video editing and visual effects, starting with the basics of setting up projects and importing your footage. You'll explore essential editing techniques such as cutting, trimming, and arranging clips on the timeline. As you progress, you'll delve into advanced VFX techniques, including creating and compositing visual effects, working with green screens, and applying advanced motion graphics. The course will also cover color correction and grading to enhance the visual appeal of your videos. Additionally, you'll learn how to add dynamic titles and 3D effects to your projects. By the end of the course, you'll be equipped with the skills to edit and enhance videos with professional-quality visual effects using HitFilm.",
         details: [
             {
                 chapterTitle: "Getting Started with Hitfilm",
@@ -1061,7 +1061,7 @@ export const apps: AppInfo[] = [
     {
         id: "9",
         title: "Audacity",
-        description: "In this course, you will learn to utilize Audacity for audio recording and editing. Covering everything from basic audio edits to advanced sound manipulation techniques.",
+        description: "In this course, you will learn to utilize Audacity for audio recording and editing, starting with the basics of setting up your projects and recording audio. You'll explore fundamental editing techniques such as cutting, trimming, and arranging audio clips to create seamless recordings. As you advance, you'll delve into more complex tasks like noise reduction, equalization, and applying effects to enhance sound quality. The course will also cover advanced sound manipulation techniques, including multi-track editing, pitch correction, and time-stretching. Additionally, you'll learn how to mix and master your audio projects to achieve professional-level sound. By the end of the course, you'll be equipped with the skills to record, edit, and manipulate audio effectively using Audacity, ready to produce high-quality audio for any project.",
         details: [
             {
                 chapterTitle: "Getting Started with Audacity",
@@ -1168,7 +1168,7 @@ export const apps: AppInfo[] = [
     {
         id: "10",
         title: "Ableton Live",
-        description: "In this course, you will learn to utilize Ableton Live for music production and live performance. Covering everything from basic setup to advanced music creation techniques.",
+        description: "In this course, you will learn to utilize Ableton Live for music production and live performance, starting with the basics of setting up your projects and navigating the interface. You'll explore fundamental techniques such as creating and arranging beats, and using virtual instruments and audio effects. As you advance, you'll delve into more sophisticated aspects of music production, including advanced sequencing, layering, and sound design. The course will also cover live performance features, teaching you how to set up and trigger clips, and use MIDI controllers for dynamic live sets. Additionally, you'll learn about mixing and mastering your tracks to achieve a polished sound. By the end of the course, you'll have the skills to produce and perform music professionally using Ableton Live, whether in the studio or on stage.",
         details: [
             {
                 chapterTitle: "Getting Started with Ableton Live",
@@ -1275,7 +1275,7 @@ export const apps: AppInfo[] = [
     {
         "id": "11",
         "title": "Pro Tools",
-        "description": "In this course, you will learn to use Pro Tools for audio recording, editing, and mixing. Covering everything from initial setup to advanced audio post-production techniques.",
+        "description": "In this course, you will learn to use Pro Tools for audio recording, editing, and mixing, beginning with the initial setup and configuration of your projects. You will explore fundamental recording techniques, including setting up tracks, capturing high-quality audio, and managing sessions efficiently. As you progress, you'll delve into advanced editing techniques such as precise cutting, time-stretching, and pitch correction. The course will also cover sophisticated mixing techniques, including the use of EQ, compression, and reverb, to enhance the overall sound. Additionally, you'll learn about advanced audio post-production workflows, including automation, noise reduction, and mastering. By the end of the course, you will be equipped with the expertise to handle complex audio projects and deliver professional-quality results using Pro Tools.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Pro Tools",
@@ -1429,7 +1429,7 @@ export const apps: AppInfo[] = [
     {
         "id": "13",
         "title": "GIMP",
-        "description": "In this course, you will learn to use GIMP for image editing and graphic design. Covering everything from basic photo manipulation to advanced graphic design techniques.",
+        "description": "In this course, you will learn to use GIMP for image editing and graphic design, starting with the basics of setting up the software and performing essential photo manipulation tasks. You’ll explore fundamental techniques such as cropping, resizing, and color correction to enhance your images. As you progress, you'll delve into more advanced skills, including detailed retouching to correct imperfections and smooth out details. The course will also cover sophisticated graphic design techniques, teaching you how to create and manipulate layers, apply filters, and use advanced selection tools. Additionally, you'll learn how to design visually appealing graphics, work with text and shapes, and integrate multiple elements into cohesive designs. By the end of the course, you'll have the expertise to handle a variety of image editing and graphic design projects using GIMP, achieving professional-quality results.",
         "details": [
             {
                 "chapterTitle": "Getting Started with GIMP",
@@ -1506,7 +1506,7 @@ export const apps: AppInfo[] = [
     {
         "id": "14",
         "title": "Illustrator",
-        "description": "In this course, you will learn to use Illustrator for vector graphic design. Covering everything from basic drawing tools to advanced vector art techniques.",
+        "description": "In this course, you will learn to use Adobe Illustrator for vector graphic design, starting with the basics of the interface and fundamental drawing tools. You’ll explore essential techniques such as creating and manipulating shapes, using the Pen Tool for precision paths, and applying color fills and strokes. As you advance, you'll delve into more sophisticated vector art techniques, including advanced path operations, gradient applications, and complex illustrations. The course will also cover the creation of custom brushes, patterns, and typography for enhanced design versatility. Additionally, you’ll learn about using layers and masks to organize and refine your artwork. By the end of the course, you'll be equipped with the skills to create professional-quality vector graphics and artwork using Illustrator.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Illustrator",
@@ -1583,7 +1583,7 @@ export const apps: AppInfo[] = [
     {
         "id": "15",
         "title": "After Effects",
-        "description": "In this course, you will learn to use After Effects for motion graphics and visual effects. Covering everything from basic animation to complex effects and compositing techniques.",
+        "description": "In this course, you will learn to use Adobe After Effects for motion graphics and visual effects, starting with the basics of creating and animating simple shapes and text. You’ll explore fundamental animation techniques such as keyframing, easing, and using motion presets to bring your designs to life. As you advance, you'll delve into complex effects and compositing techniques, including layering multiple elements, applying advanced visual effects, and integrating 3D assets. The course will also cover creating dynamic transitions, using tracking and masking for precise effect application, and refining animations with expressions for added complexity. Additionally, you’ll learn about rendering and exporting your projects for various platforms. By the end of the course, you’ll be equipped with the skills to produce high-quality motion graphics and visual effects using After Effects.",
         "details": [
             {
                 "chapterTitle": "Getting Started with After Effects",
@@ -1650,7 +1650,7 @@ export const apps: AppInfo[] = [
     {
         "id": "16",
         "title": "Lightroom",
-        "description": "In this course, you will learn to use Lightroom for photo management and editing. Covering everything from importing and organizing photos to advanced color grading and retouching techniques.",
+        "description": "In this course, you will learn to use Adobe Lightroom for photo management and editing, starting with the basics of importing and organizing your photo library. You'll explore fundamental techniques such as sorting, tagging, and creating collections to keep your images well-organized. As you progress, you’ll delve into advanced editing techniques, including precise color grading, exposure adjustments, and applying custom presets to enhance your photos. The course will also cover sophisticated retouching methods, such as removing blemishes, smoothing skin, and correcting lens distortions. Additionally, you'll learn how to use Lightroom's local adjustment tools for targeted edits and create stunning visual effects with gradients and brushes. By the end of the course, you'll be proficient in managing and editing photos to achieve professional-quality results using Lightroom.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Lightroom",
@@ -1717,7 +1717,7 @@ export const apps: AppInfo[] = [
     {
         "id": "17",
         "title": "PowerPoint",
-        "description": "In this course, you will learn to use PowerPoint for creating impactful presentations. Covering everything from basic slide design to advanced presentation techniques.",
+        "description": "In this course, you will learn to use Microsoft PowerPoint for creating impactful presentations, starting with the basics of designing and structuring your slides. You'll explore essential techniques such as choosing templates, adding text and images, and using built-in design tools to create visually appealing slides. As you advance, you'll delve into more sophisticated presentation techniques, including customizing slide layouts, incorporating multimedia elements like videos and audio, and utilizing advanced transitions and animations to enhance your presentation. The course will also cover strategies for effective storytelling, organizing content for maximum impact, and designing for different audiences. Additionally, you'll learn how to rehearse and deliver your presentation confidently using PowerPoint’s presenter tools. By the end of the course, you'll be equipped with the skills to create and deliver professional, engaging presentations that captivate your audience..",
         "details": [
             {
                 "chapterTitle": "Getting Started with PowerPoint",
@@ -1784,7 +1784,7 @@ export const apps: AppInfo[] = [
     {
         "id": "18",
         "title": "SketchUp",
-        "description": "In this course, you will learn to use SketchUp for 3D modeling and design. Covering everything from basic modeling tools to advanced techniques for architectural and interior design.",
+        "description": "In this course, you will learn to use SketchUp for 3D modeling and design, starting with the basics of setting up your workspace and navigating the interface. You’ll explore fundamental modeling tools such as drawing shapes, pushing and pulling surfaces, and creating basic geometries. As you advance, you'll delve into more advanced techniques for architectural and interior design, including detailed modeling of complex structures, applying textures, and using components and groups to streamline your workflow. The course will also cover advanced features like importing and exporting models, creating detailed floor plans, and rendering your designs with realistic lighting and materials. Additionally, you’ll learn about integrating SketchUp with other design tools and plugins for enhanced functionality. By the end of the course, you'll have the skills to create intricate 3D models and detailed designs for architectural and interior projects using SketchUp.",
         "details": [
             {
                 "chapterTitle": "Getting Started with SketchUp",
@@ -1851,7 +1851,7 @@ export const apps: AppInfo[] = [
     {
         "id": "19",
         "title": "AutoCAD",
-        "description": "In this course, you will learn to use AutoCAD for 2D drafting and 3D modeling. Covering everything from basic drawing tools to advanced CAD techniques for professional design.",
+        "description": "In this course, you will learn to use AutoCAD for 2D drafting and 3D modeling, beginning with the fundamentals of setting up your workspace and familiarizing yourself with the interface. You’ll explore basic drawing tools and techniques, including creating and modifying geometric shapes, using layers, and applying dimensions to your drawings. As you progress, you'll delve into advanced CAD techniques, such as creating complex 2D layouts, working with blocks and attributes, and utilizing dynamic blocks for efficient design. The course will also cover 3D modeling techniques, including building and editing 3D objects, applying materials and textures, and rendering your models for realistic visualizations. Additionally, you'll learn about advanced features like creating and managing drawing templates, using external references (Xrefs), and customizing AutoCAD for enhanced productivity. By the end of the course, you'll be equipped with the skills to handle both 2D drafting and 3D modeling projects with professionalism and precision using AutoCAD.",
         "details": [
             {
                 "chapterTitle": "Getting Started with AutoCAD",
@@ -1918,7 +1918,7 @@ export const apps: AppInfo[] = [
     {
         "id": "20",
         "title": "SolidWorks",
-        "description": "In this course, you will learn to use SolidWorks for 3D CAD design and modeling. Covering everything from basic part creation to advanced assembly and simulation techniques.",
+        "description": "In this course, you will learn to use SolidWorks for 3D CAD design and modeling, starting with the fundamentals of setting up your projects and navigating the interface. You'll explore basic part creation techniques, including sketching, extruding, and cutting to develop fundamental 3D shapes. As you advance, you'll delve into more complex modeling tasks such as creating assemblies, applying and managing constraints, and using advanced features like surface modeling and sheet metal design. The course will also cover detailed assembly techniques, including how to fit and align parts accurately, and the use of advanced tools for motion analysis and interference checking. Additionally, you'll learn about simulation techniques, such as stress analysis and thermal simulations, to test and validate your designs under real-world conditions. By the end of the course, you'll be equipped with the skills to create, assemble, and analyze detailed 3D models using SolidWorks, ready to tackle professional CAD design challenges.",
         "details": [
             {
                 "chapterTitle": "Getting Started with SolidWorks",
@@ -1985,7 +1985,7 @@ export const apps: AppInfo[] = [
     {
         "id": "21",
         "title": "Maya",
-        "description": "In this course, you will learn to use Maya for 3D modeling, animation, and rendering. Covering everything from basic modeling tools to advanced animation and rendering techniques.",
+        "description": "In this course, you will learn to use Autodesk Maya for 3D modeling, animation, and rendering, starting with the fundamentals of the interface and basic modeling tools. You’ll explore essential techniques such as creating and manipulating geometric shapes, using extrusion and subdivision methods to build complex models. As you progress, you'll delve into advanced modeling techniques, including sculpting detailed textures and working with advanced shaders.The course will also cover animation fundamentals, teaching you how to create and refine animations using keyframes, rigging, and character animation techniques. You'll learn about the principles of motion, including easing, timing, and synchronization to bring your animations to life.Additionally, you'll explore advanced rendering techniques, including setting up lighting, camera angles, and materials to produce high-quality, photorealistic images. You'll learn to use Maya’s rendering engines, such as Arnold, to optimize your final renders for both quality and efficiency.By the end of the course, you'll have the skills to create detailed 3D models, produce dynamic animations, and render high-quality visuals using Maya, preparing you for professional work in 3D design and animation.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Maya",
@@ -2062,7 +2062,7 @@ export const apps: AppInfo[] = [
     {
         "id": "22",
         "title": "Visual Studio",
-        "description": "In this course, you will learn to use Visual Studio for software development. Covering everything from initial setup and debugging to advanced features like source control and project management.",
+        "description": "In this course, you will learn to use Visual Studio for software development, starting with the initial setup and configuration of your development environment. You'll explore fundamental features such as creating and managing projects, writing and editing code, and utilizing the integrated development tools. As you progress, you'll delve into debugging techniques, including setting breakpoints, stepping through code, and using the diagnostic tools to identify and resolve issues efficiently.The course will also cover advanced features like source control integration, teaching you how to use Git and other version control systems within Visual Studio for effective collaboration and code management. You’ll learn about project management tools, including task tracking, code reviews, and continuous integration setups, to streamline your development workflow.Additionally, you'll explore extensions and customization options to enhance your development environment and improve productivity. By the end of the course, you'll have the skills to develop, debug, and manage software projects effectively using Visual Studio, preparing you for a range of software development tasks and environments.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Visual Studio",
@@ -2129,7 +2129,7 @@ export const apps: AppInfo[] = [
     {
         "id": "23",
         "title": "Visual Studio Code",
-        "description": "In this course, you will learn to use Visual Studio Code for lightweight and versatile code editing. Covering everything from installation and basic usage to advanced features and extensions.",
+        "description": "In this course, you will learn to use Visual Studio Code (VS Code) for lightweight and versatile code editing, starting with the installation process and basic setup of your development environment. You'll explore essential features such as the integrated terminal, basic text editing, and navigating the codebase efficiently.As you progress, you'll delve into more advanced usage, including customizing the editor with settings and themes to suit your workflow. You'll learn how to leverage VS Code’s powerful debugging tools to identify and fix issues in your code, as well as how to manage multiple files and projects using workspaces.The course will also cover advanced features and extensions that enhance functionality, such as version control integration with Git, code linting, and auto-completion. You'll explore how to install and configure extensions to support various programming languages and frameworks, improving your productivity and development efficiency.",
         "details": [
             {
                 "chapterTitle": "Getting Started with Visual Studio Code",

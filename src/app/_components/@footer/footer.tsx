@@ -51,7 +51,7 @@ const Footer = ()=>{
                         <div className="flex-col p-4">
                             <h1 className="font-bold text-2xl">Policies</h1>
                             <ul>
-                                <li><Link href={"/security"}>security</Link></li>
+                                <li><Link href={"/security"}>Security</Link></li>
                                 <li><Link href={'/legaleNotice'}> Legale Notice</Link></li>
                                 <li><Link href={'/privacy'}>Privacy</Link></li>
                                 <li><Link href={'/termsofsales'}>Terms of Sales</Link></li>

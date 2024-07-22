@@ -10,19 +10,18 @@ export default function InfoPages(){
 
   const descriptionMajor = (
     <>
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.
+      <p>
+      Onistep leverages a specially curated database and advanced algorithms to provide guidance that's twice as accurate as other AI solutions. Unlike general-purpose AIs, Onistep is dedicated to software instruction, ensuring you get precise, relevant answers every time. From basic tasks to complex operations, our accuracy means you can trust the guidance you receive. Experience the difference with Onistep's unparalleled precision.
+      </p>
     </>
   );
+  const descriptionMajor2= (
+    <>
+      <p>
+      Navigating new software can be challenging, but with Onistep, you get real-time, interactive guides that make learning a breeze. No more switching tabs or searching for tutorials; Onistep shows you exactly where to click and what to do. Whether you're diving into Photoshop for the first time or exploring advanced features in Blender, our guides ensure you never feel lost. Experience the ease of mastering any software with precise, step-by-step instructions right within your application.
+      </p>
+    </>
+  )
 
 
     return (
@@ -32,7 +31,7 @@ export default function InfoPages(){
       </div>
       <AppSlider />
       <div className="p-10">
-        <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Never leave your window", description:descriptionMajor ,imageRight:false }}/>
+        <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
         <div className="text-white">
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>

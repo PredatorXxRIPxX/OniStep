@@ -91,7 +91,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="flex items-center justify-between p-4 mt-6">
+      <div className="lg:flex lg:items-center lg:justify-between p-4 mt-6 grid grid-cols-1 gap-2">
         <div className="text-white">
           <h1 className="font-FjallaOne font-medium text-7xl ml-8">
             Let&apos;s have a talk
