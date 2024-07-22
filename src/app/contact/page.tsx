@@ -93,10 +93,10 @@ export default function Contact() {
     <>
       <div className="lg:flex lg:items-center lg:justify-between p-4 mt-6 grid grid-cols-1 gap-2">
         <div className="text-white">
-          <h1 className="font-FjallaOne font-medium text-7xl ml-8">
+          <h1 className="font-FjallaOne font-medium text-7xl ml-8 text-center lg:text-left">
             Let&apos;s have a talk
           </h1>
-          <p className="font-varela font-normal text-2xl mt-6 mb-6 w-3/4 ml-8">
+          <p className="font-varela font-normal text-2xl mt-6 mb-6 lg:w-3/4 ml-8 text-center lg:text-left">
             Built for every team across your company, Onistep Enterprise boosts
             productivity with upgraded security and account support. Contact us
             today to unlock

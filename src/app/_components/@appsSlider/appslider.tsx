@@ -22,26 +22,34 @@ const AppSlider = () => {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3, // Adjust based on the number of slides visible at this breakpoint
+                slidesToShow: 6, // Adjust based on the number of slides visible at this breakpoint
                 slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
                 infinite: true,
-                dots: true
+                cssEase:"Linear",
+                autoplay:true,
+                dots: false
             }
         },
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1, // Scroll one slide at a time
-                infinite: true,
-                dots: true
+              slidesToShow: 4, // Adjust based on the number of slides visible at this breakpoint
+              slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
+              infinite: true,
+              cssEase:"Linear",
+              autoplay:true,
+              dots: false
             }
         },
         {
             breakpoint: 480,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1 // Scroll one slide at a time
+              slidesToShow: 2, // Adjust based on the number of slides visible at this breakpoint
+              slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
+              infinite: true,
+              cssEase:"Linear",
+              autoplay:true,
+              dots: false
             }
         }
     ]

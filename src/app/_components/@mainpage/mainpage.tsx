@@ -15,16 +15,16 @@ function Mainpage() {
     }, []);
 
     const options = [
-        [{ text: "Photoshop", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
-        [{ text: "Unity", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
-        [{ text: "Blender", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
-        [{ text: "Premiere Pro", classNames: "text-4xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Photoshop", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Unity", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Blender", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "Premiere Pro", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
     ];
 
     
     return (
         <div className="text-center mb-20 mt-20 font-FjallaOne">
-            <motion.h1 className="text-4xl  lg:text-7xl lg:text-center text-white lg:font-medium">
+            <motion.h1 className="text-5xl  lg:text-7xl lg:text-center text-white lg:font-medium">
                 Let us guide your clicks,
                 <br />
                 <br />
