@@ -4,6 +4,7 @@ import Container from "../@container/container"
 import VideoSection from "../@videosection/videosection"
 import Btn from "../btn/btn"
 import { cardData } from "../../_data/data"
+import Link from 'next/link'
 
 export default function InfoPages(){
 
@@ -44,6 +45,11 @@ export default function InfoPages(){
               })
             }
           </div>
+          <center>
+            <Link href={"/courses"}>
+              <Btn text="View all courses" />
+            </Link>
+          </center>
         </div>
         <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }}/>
       </div>

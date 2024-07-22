@@ -11,8 +11,8 @@ const Footer = ()=>{
             <center>
                 <div className="h-3/4 w-1/2 flex items-center justify-center">
                     <div className="grid grid-cols-4 grid-rows-1 text-white text-left gap-2 p-2">
-                        <div className="flex-col p-4">
-                            <h1 className="font-bold text-2xl" >Connections</h1>
+                        <div className="flex-col p-4 w-full">
+                            <h1 className="font-bold text-2xl w-fit" >Connections</h1>
                             <ul className="flex items-center justify-around mt-5">
                                 <li><GitHubIcon /></li>
                                 <li><FacebookIcon /></li>
