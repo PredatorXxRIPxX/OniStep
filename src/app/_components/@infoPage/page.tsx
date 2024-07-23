@@ -26,7 +26,7 @@ export default function InfoPages(){
   return (
     <>
       <div className=" w-full flex items-center justify-center  overflow-x-hidden">
-        <VideoSection props={{url:"45554"}} />
+        <VideoSection props={{url:"./videos/Unity_Final.mp4"}} />
       </div>
       <AppSlider />
       <div className="p-10">
