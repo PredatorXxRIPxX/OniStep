@@ -75,7 +75,7 @@ export const cardData = [
     {
         id:"19",
         title:"AutoCAD Courses",
-        iconUrl:"/assets/AutoCad.svg",
+        iconUrl:"/assets/autoCad.svg",
         imgUrl:"/courses/page11.jpg",
         level:levelTypes.beginner,
     },
@@ -89,7 +89,7 @@ export const cardData = [
     {
         id:"21",
         title:"Maya Courses",
-        iconUrl:"/courses/page13.jpg",
+        iconUrl:"/assets/maya.svg",
         imgUrl:"/courses/page13.jpg",
         level:levelTypes.beginner,
     },
@@ -145,14 +145,14 @@ export const cardData = [
     {
         id:"14",
         title:"Illustrator Courses",
-        iconUrl:"/courses/page21.jpg",
+        iconUrl:"/assets/illustrator.svg",
         imgUrl:"/courses/page21.jpg",
         level:levelTypes.beginner,
     },
     {
         id:"15",
         title:"After Effects Courses",
-        iconUrl:"/courses/page22.jpg",
+        iconUrl:"/assets/afterEffect.svg",
         imgUrl:"/courses/page22.jpg",
         level:levelTypes.beginner,
     },
@@ -180,8 +180,8 @@ export const imagesUrl = [
     "/assets/Excel-logo.png",
     "/assets/Visual-Studio-Logo-2019.png",
     "/assets/vsc.png",
-    "/assets/buffer_logo_icon_170445.webp",
-    "/assets/Official_unity_logo.png"
+    "/assets/Unity-Symbol.png",
+    "/assets/word.svg",
 ]
 
 export interface ChapterDescription {

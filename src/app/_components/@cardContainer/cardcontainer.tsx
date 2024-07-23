@@ -46,8 +46,8 @@ const CardContainer = ({props}:{props:{id:string,imgUrl:string,title:string,icon
                 <div className={`h-full w-full p-2 mb-2 rounded-xl overflow-hidden`}>
                     <Image src={props.imgUrl} alt="image Course" className="w-full h-full rounded-2xl" layout="responsive" width={100} height={100}/>
                 </div>
-                <div className="h-1/4 pl-2">
-                    <Image src={props.iconUrl} alt="icon Course" className="w-8 h-8" width={10} height={10}/>
+                <div className="pl-2 w-[60px] h-[60px] flex items-center justify-center">
+                    <Image src={props.iconUrl} alt="icon Course"  layout="responsive" width={60} height={60}/>
                 </div>
                 <h1 className="text-black text-xl font-bold pl-4 mt-2 mb-2">{props.title}</h1>
                 <div className="flex items-center ">

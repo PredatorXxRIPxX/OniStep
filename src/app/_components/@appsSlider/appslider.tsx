@@ -8,7 +8,6 @@ import { imagesUrl } from "@/app/_data/data";
 
 const AppSlider = () => {
   const imageList = imagesUrl;
-  console.log(imageList);
   const settings = {
     dots: false,
     infinite: true,
@@ -27,29 +26,33 @@ const AppSlider = () => {
                 infinite: true,
                 cssEase:"Linear",
                 autoplay:true,
-                dots: false
+                dots: false,
+                autoplayspeed: 0,
             }
         },
         {
             breakpoint: 600,
             settings: {
-              slidesToShow: 4, // Adjust based on the number of slides visible at this breakpoint
-              slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
+              slidesToShow: 4, 
+              slidesToScroll: 1, 
               infinite: true,
               cssEase:"Linear",
               autoplay:true,
-              dots: false
+              dots: false,
+              autoplayspeed: 0,
+
             }
         },
         {
             breakpoint: 480,
             settings: {
-              slidesToShow: 2, // Adjust based on the number of slides visible at this breakpoint
-              slidesToScroll: 1, // Scroll one slide at a time for smooth scrolling
+              slidesToShow: 4, 
+              slidesToScroll: 1, 
               infinite: true,
               cssEase:"Linear",
               autoplay:true,
-              dots: false
+              dots: false,
+              autoplayspeed: 0,
             }
         }
     ]
@@ -58,14 +61,14 @@ const AppSlider = () => {
 
   return (
     <div className="w-full flex flex-col items-center justify-center mt-10">
-      <Slider {...settings} className="mb-10 flex items-center w-3/4">
+      <Slider {...settings} className="mb-10 flex items-center w-3/4 lg:h-3/4">
         {imageList.map((url: string, index: number) => (
           <div
             key={index}
             className="relative w-[50px] h-[50px] grid items-center justify-center p-4"
           >
             <div className="ml-5 mr-5"></div>
-            <div className="w-full h-full ml-2 mr-2">
+            <div className=" h-full ml-2 mr-2 w-3/4 lg:w-full">
               <Image
                 src={url}
                 alt="app"

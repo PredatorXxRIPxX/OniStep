@@ -27,11 +27,11 @@ export default function InfoPages(){
     return (
         <>
           <div className=" w-full flex items-center justify-center  overflow-x-hidden">
-        <VideoSection props={{url:"/videos/Unity_Final.mp4"}} />
+        <VideoSection props={{url:"45554"}} />
       </div>
       <AppSlider />
       <div className="p-10">
-        <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
+        <Container props={{videoUrl:"/assets/bonnertaille.png", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
         <div className="text-white">
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>
@@ -50,7 +50,7 @@ export default function InfoPages(){
             </Link>
           </center>
         </div>
-        <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }}/>
+        <Container props={{videoUrl:"/assets/bonnertaille.png", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }}/>
       </div>
       <div className="text-center text-white">
         <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
