@@ -1,4 +1,4 @@
-"use client"
+
 import {
     Accordion,
     AccordionItem,
@@ -9,12 +9,36 @@ import {
     Input,
     Button,
 } from '@chakra-ui/react';
+//import { GetStaticPaths,GetStaticProps } from 'next';
 
 import { cardData, apps } from '../../_data/data';
 import Image from 'next/image';
 import Btn from '../../_components/btn/btn';
 import Link from 'next/link';
 import { Chapter, ChapterDescription, AppInfo } from '../../_data/data';
+
+
+/*export const getStaticPaths:GetStaticPaths = async ()=>{
+    const paths = apps.map((app) => ({
+        params: { CourseId: app.id },
+    }));
+    return {
+        paths,
+        fallback: false,
+    };
+}
+
+export const getStaticProps:GetStaticProps = async (context) => {
+    const {params}:any = context;
+    const course = apps.find((course) => course.id === params.CourseId);
+    const data = cardData.find((data) => data.id === params.CourseId);
+    return {
+        props: {
+            course,
+            data,
+        },
+    };
+}*/
 
 export default function Details({ params }: { params: { CourseId: string } }) {
     function getChapters({ details }: { details: Chapter }) {
