@@ -11,7 +11,7 @@ const AppSlider = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 12,
+    slidesToShow: 10,
     slidesToScroll: 1, 
     autoplay: true,
     autoplaySpeed: 0,
