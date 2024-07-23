@@ -44,7 +44,7 @@ export default function Container({props}:{props:{header:string,description:Reac
                             <source src={props.videoUrl} type="video/mp4" />
                         </video>*/
                     }
-                    <Image src={"/assets/bonnetaille.png"} alt="video" layout="responsive" width={16} height={9} className="rounded-xl"/>
+                    <Image src={"./assets/bonnetaille.png"} alt="video" layout="responsive" width={16} height={9} className="rounded-xl"/>
                 </div>
                 <div className={`flex-col h-full w-full items-center font-fjalla justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
                     <h1 className="text-white text-4xl mt-5 mb-5 font-FjallaOne font-medium">{props.header}</h1>
