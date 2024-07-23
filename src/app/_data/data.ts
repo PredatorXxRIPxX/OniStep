@@ -168,20 +168,20 @@ export const cardData = [
 
 
 export const imagesUrl = [
-    "/assets/image 1.svg",
-    "/assets/image 3.svg",
-    "/assets/image 4.svg",
-    "/assets/image 5.svg",
-    "/assets/image 6.svg",
-    "/assets/image 7.svg",
-    "/assets/image 8.svg",
-    "/assets/image 9.svg",
-    "/assets/Logo_Blender.svg.png",
-    "/assets/Excel-logo.png",
-    "/assets/Visual-Studio-Logo-2019.png",
-    "/assets/vsc.png",
-    "/assets/Unity-Symbol.png",
-    "/assets/word.svg",
+    "./assets/image 1.svg",
+    "./assets/image 3.svg",
+    "./assets/image 4.svg",
+    "./assets/image 5.svg",
+    "./assets/image 6.svg",
+    "./assets/image 7.svg",
+    "./assets/image 8.svg",
+    "./assets/image 9.svg",
+    "./assets/Logo_Blender.svg.png",
+    "./assets/Excel-logo.png",
+    "./assets/Visual-Studio-Logo-2019.png",
+    "./assets/vsc.png",
+    "./assets/Unity-Symbol.png",
+    "./assets/word.svg",
 ]
 
 export interface ChapterDescription {
