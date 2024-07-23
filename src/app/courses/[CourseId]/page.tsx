@@ -78,7 +78,7 @@ export default async function Details({ params }: DetailsProps) {
                 </div>
                 <div className='lg:flex lg:items-center lg:justify-center mt-10'>
                     <div className='rounded-xl border-4 border-solid border-[#ABAFDF] w-full h-full'>
-                        <Image src={data?.imgUrl || '/default-image.jpg'} alt={data?.id || 'default'} layout="responsive" width={100} height={100} className='rounded-xl' />
+                        <Image src={`.${data?.imgUrl}` || '/default-image.jpg'} alt={data?.id || 'default'} layout="responsive" width={100} height={100} className='rounded-xl' />
                     </div>
                 </div>
             </div>
