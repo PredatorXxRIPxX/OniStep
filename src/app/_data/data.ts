@@ -181,7 +181,6 @@ export const imagesUrl = [
     "./assets/Visual-Studio-Logo-2019.png",
     "./assets/vsc.png",
     "./assets/Unity-Symbol.png",
-    "./assets/wordimage.svg",
 ]
 
 export interface ChapterDescription {
