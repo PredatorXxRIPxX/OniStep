@@ -65,7 +65,7 @@ const Footer = ()=>{
             </center>
             <div className="w-full p-10 lg:flex lg:items-center lg:justify-between grid grid-cols-1 gap-4">
                 <div className="flex lg:ml-10 m-auto">
-                    <Image src={'/assets/LOGOseullarge 1.svg'} alt='logo' width={50} height={50}/>
+                    <Image src={'./assets/LOGOseullarge 1.svg'} alt='logo' width={50} height={50}/>
                     <p className="ml-2 mt-2 text-white font-semibold">OniStep</p>
                 </div>
                 <p className="text-white lg:mr-10 text-center">© 2021 Onistep. All rights reserved</p>
