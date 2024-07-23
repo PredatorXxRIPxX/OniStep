@@ -1,6 +1,7 @@
 import { levelTypes } from "../_components/_types/levelTypes";
 
 
+
 export const cardData = [
     {
         id:"22",
