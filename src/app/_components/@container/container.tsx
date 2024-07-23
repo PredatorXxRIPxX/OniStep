@@ -41,7 +41,7 @@ export default function Container({props}:{props:{header:string,description:Reac
                     {/*<video className="w-full h-auto rounded-xl" autoPlay loop muted>
                             <source src={props.videoUrl} type="video/mp4" />
                         </video>*/}
-                    <Image src={"/assets/bonnetaille.png"} alt="video" layout="responsive" width={16} height={9} className="rounded-xl"/>
+                    <Image src={"./assets/bonnetaille.png"} alt="video" layout="responsive" width={16} height={9} className="rounded-xl"/>
                     
                 </div>
                 <div className={`flex-col h-full w-full items-center font-fjalla justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
