@@ -31,7 +31,7 @@ export default function Price(){
             <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A little Price for a great value</h1>
             <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>Choose the right price for your needs.</p>
             <div className="p-10">
-                <Container props={{videoUrl:"/videos/Unity_Final.mp4", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }} />
+                <Container props={{videoUrl:"./videos/Unity_Final.mp4", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }} />
             </div>
             <div className="text-center text-white">
                 <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
