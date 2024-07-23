@@ -26,11 +26,11 @@ export default function InfoPages(){
   return (
     <>
       <div className=" w-full flex items-center justify-center  overflow-x-hidden">
-        <VideoSection props={{url:"./videos/Unity_Final.mp4"}} />
+        <VideoSection props={{url:"45554"}} />
       </div>
       <AppSlider />
       <div className="p-10">
-          <Container props={{videoUrl:"45554", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
+          <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
         <div className="text-white">
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>
