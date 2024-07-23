@@ -97,7 +97,7 @@ export default async function Details({ params }: DetailsProps) {
                     <h1 className='font-FjallaOne text-4xl text-black text-center'>{course?.title}</h1>
                     <div className='p-4'>
                         <div className="rounded-lg">
-                            <Image src={'/assets/bonnetaille.png'} alt='bonnet' layout="responsive" width={100} height={100} className='rounded-xl' />
+                            <Image src={'./assets/bonnetaille.png'} alt='bonnet' layout="responsive" width={100} height={100} className='rounded-xl' />
                         </div>
                         <p className='font-varela text-lg text-black text-center mt-2 mb-2'>Get this course and much more with the Lite plan of Onistep - <span className='text-violet-800 underline-offset-1'><Link href={'/price'}>Learn more</Link></span></p>
                         <center>
