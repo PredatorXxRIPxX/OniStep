@@ -25,9 +25,9 @@ export default function Privacy(){
                 - **To Process Payments:** Handling subscription payments securely.
                 - **To Comply with Legal Obligations:** Ensuring compliance with applicable laws and regulations.
             </p>
-            <h1>
-            Sharing Your Information
-            </h1>
+            <h2 className="font-varela text-4xl p-4">
+             Sharing Your Information
+            </h2>
             <p className="font-varela text-xl p-4">
             We do not sell or rent your personal information to third parties. We may share your information with:
             - **Service Providers:** Third-party companies that provide services on our behalf, such as payment processing, data analysis, and email delivery.
@@ -52,7 +52,7 @@ export default function Privacy(){
             - Object to the processing of your data.
             - Withdraw consent at any time where we are relying on consent to process your data.
 
-            To exercise these rights, please contact us at **[Your Contact Email]**.
+            To exercise these rights, please contact us at contact@onistep.com.
             </p>
             <h2 className="font-varela text-4xl p-4">Changes to This Privacy Policy</h2>
             <p className="font-varela text-xl p-4">
@@ -60,7 +60,7 @@ export default function Privacy(){
             </p>
             <h2 className="font-varela text-4xl p-4">Contact Us</h2>
             <p className="font-varela text-xl p-4">
-                If you have any questions or concerns about our Privacy Policy, please contact us at **[Your Contact Email]**.
+                If you have any questions or concerns about our Privacy Policy, please contact us at contact@onistep.com.
             </p>
 
         </div>
