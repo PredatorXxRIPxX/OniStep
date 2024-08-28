@@ -4,17 +4,7 @@ import Btn from "../_components/btn/btn";
 
 const descriptionMajor = (
     <>
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.<br />
-      Get the answers you need instantly.<br />
-      Onistep brings all the guidance you need right to your screen.<br />
-      No more endless searches.
+      Tried GPT-4 and felt lost when it came to software help? We’ve all been there. Onistep is built different. Unlike general AI, our assistant is laser-focused on your tools. With a massive internal database tailored to your software, Onistep doesn’t hallucinate buttons or paths—it knows your version, your setup, and stays updated with the latest features. 
     </>
   );
 
@@ -31,7 +21,7 @@ export default function Price(){
             <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A small Price for a great value</h1>
             <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>These Prices wont ever change</p>
             <div className="p-10">
-                <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }} />
+                <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }} />
             </div>
             <div className="text-center text-white">
                 <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
