@@ -24,7 +24,7 @@ const bubblesContainers: BubblesInfo[] = [
         />
       </svg>
     ),
-    description: "Our Communication is end-to-end encrypted and secure",
+    description: "Our Communication is end-to-end encrypted",
   },
   {
     icon: (
@@ -43,7 +43,7 @@ const bubblesContainers: BubblesInfo[] = [
         />
       </svg>
     ),
-    description: "Get a very fast response in 48h from sending your feedback",
+    description: "Get a fast response in less than 48h",
   },
   {
     icon: (
