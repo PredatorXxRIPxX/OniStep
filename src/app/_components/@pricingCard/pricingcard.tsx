@@ -37,9 +37,10 @@ export default function PricingCard({
         Includes:
       </h1>
       <ul className="text-lg font-medium font-varela text-gray-600 mt-2 list-none text-center lg:text-left lg:list-disc ml-4 lg:ml-10">
-        <li>onistep your guidance</li>
-        <li>onistep your guidance</li>
-        <li>onistep your guidance</li>
+        <li>Guided navigation through software</li>
+        <li>Access to dozens of course</li>
+        <li>Advanced course creation tools</li>
+        <li>Course management for groups</li>
       </ul>
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Features:
