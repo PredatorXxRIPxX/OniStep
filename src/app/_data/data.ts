@@ -69,7 +69,7 @@ export const cardData = [
     {
         id:"18",
         title:"SketchUp Courses",
-        iconUrl:"./assets/sketchup.svg",
+        iconUrl:"./assets/sketchup.png",
         imgUrl:"./courses/page23.jpg",
         level:levelTypes.beginner,
     },
