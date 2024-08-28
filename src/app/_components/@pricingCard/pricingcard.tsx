@@ -36,7 +36,7 @@ export default function PricingCard({
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Includes:
       </h1>
-      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 ml-4 text-center list-none lg:list-inside">
+      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 mb-2 text-center lg:list-disc lg:list-none lg:list-inside">
         {features.map((feature, index) => (
           <li
             key={index}
@@ -49,8 +49,8 @@ export default function PricingCard({
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Features:
       </h1>
-      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 list-none text-center lg:text-left lg:list-disc ml-4 lg:ml-10">
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
+      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 mb-2 list-none text-center lg:text-left  ml-4 lg:ml-10">
+        <li className="flex items-center justify-center lg:justify-start text-sm">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -67,7 +67,7 @@ export default function PricingCard({
             </svg>
           Guided navigation through software
         </li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
+        <li className="flex items-center justify-center lg:justify-start text-sm">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -83,7 +83,7 @@ export default function PricingCard({
               />
             </svg>
           Access to dozens of course</li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
+        <li className="flex items-center justify-center lg:justify-start text-sm">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -99,7 +99,7 @@ export default function PricingCard({
               />
             </svg>
           Advanced course creation tools</li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
+        <li className="flex items-center justify-center lg:justify-start text-sm">
           <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
