@@ -36,7 +36,7 @@ export default function PricingCard({
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Includes:
       </h1>
-      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 ml-4 list-none lg:list-inside">
+      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 ml-4 text-center list-none lg:list-inside">
         {features.map((feature, index) => (
           <li
             key={index}
