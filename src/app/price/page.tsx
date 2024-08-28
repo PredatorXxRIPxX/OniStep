@@ -21,15 +21,15 @@ const descriptionMajor = (
 export default function Price(){
     return (
         <div className="mt-20">
-            <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A small Price for a great value</h1>
-            <p className='text-2xl font-bold text-white text-center font-varela mb-10 mt-10'> Get the perfect software assistant</p>
+            <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'> Get the perfect software assistant </h1>
+            <p className='text-2xl font-bold text-white text-center font-varela mb-10 mt-10'> Find the perfect fit for your Needs</p>
             <div className="w-full grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 gap-10 p-10">
                 <PricingCard title="Lite" subtitle="Perfect for getting started with basic guidance." price="Free" features={['Software guidance - 10 tutorial per day','Onistep library','Course creation','Team management']} buttonText="Enroll now"/>
                 <PricingCard title="Starter" subtitle="Your go-to for personalized software help and learning. " price="12.99$" features={['Software guidance - 200 tutorial per day','Onistep library','Course creation','Team management']} buttonText="Enroll now"/>
                 <PricingCard title="Business" subtitle="Unlock full functionality for teams and creators. " price="39.99$" features={['Software guidance - Unlimited','Onistep library','Course creation','Team management']} buttonText="Enroll now"/>
             </div>
             <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>A small Price for a great value</h1>
-            <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>Find the perfect fit for your needs.</p>
+            <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>These Prices wont ever change</p>
             <div className="p-10">
                 <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }} />
             </div>
