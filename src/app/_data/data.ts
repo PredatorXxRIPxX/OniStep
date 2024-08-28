@@ -160,7 +160,7 @@ export const cardData = [
     {
         id:"16",
         title:"Lightroom Courses",
-        iconUrl:"./assets/lightroom.svg",
+        iconUrl:"./assets/lightroomlogo.png",
         imgUrl:"./courses/page21.jpg",
         level:levelTypes.beginner,
     }
