@@ -104,7 +104,7 @@ export const cardData = [
     {
         id:"7",
         title:"Premiere Pro Courses",
-        iconUrl:"./assets/premier.svg",
+        iconUrl:"./assets/premierprologo.jpg",
         imgUrl:"./courses/page15.jpg",
         level:levelTypes.beginner,
     },
