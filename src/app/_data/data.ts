@@ -62,7 +62,7 @@ export const cardData = [
     {
         id:"17",
         title:"PowerPoint Courses",
-        iconUrl:"/assets/powerlogo.png",
+        iconUrl:"./assets/powerlogo.png",
         imgUrl:"./courses/page9.jpg",
         level:levelTypes.beginner,
     },
@@ -90,14 +90,14 @@ export const cardData = [
     {
         id:"21",
         title:"Maya Courses",
-        iconUrl:"./assets/maya.png",
+        iconUrl:"./assets/mayalogo.png",
         imgUrl:"./courses/maya.svg",
         level:levelTypes.beginner,
     },
     {
         id:"6",
         title:"Da Vinci Resolve Courses",
-        iconUrl:"./assets/davinci.svg",
+        iconUrl:"./assets/davincilogo.png",
         imgUrl:"./courses/page14.jpg",
         level:levelTypes.beginner,
     },
