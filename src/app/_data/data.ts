@@ -48,7 +48,7 @@ export const cardData = [
     {
         id:"3",
         title:"Unreal Engine Courses",
-        iconUrl:"/assets/unreal.png",
+        iconUrl:"/assets/UnrealEnginelogo.png",
         imgUrl:"./courses/unreal.svg",
         level:levelTypes.beginner,
     },
