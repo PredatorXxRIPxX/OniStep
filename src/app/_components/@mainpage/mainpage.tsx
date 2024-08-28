@@ -18,7 +18,7 @@ function Mainpage() {
         [{ text: "Photoshop", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
         [{ text: "Unity", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
         [{ text: "Blender", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
-        [{ text: "Premiere Pro", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
+        [{ text: "DaVinci Resolve", classNames: "text-5xl lg:text-7xl  font-medium font-FjallaOne" }],
     ];
 
     
@@ -47,7 +47,7 @@ function Mainpage() {
                 </span>
             </motion.h1>
             <motion.p className="text-2xl font-medium text-white mt-10 font-varela">
-                Onistep is your Software Assistant. Ask it any question
+                Onistep is your Software Assistant. Ask it any question.
             </motion.p>
             <center className="hidden lg:block">
                 <motion.button
