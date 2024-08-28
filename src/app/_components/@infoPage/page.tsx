@@ -11,14 +11,14 @@ export default function InfoPages(){
   const descriptionMajor = (
     <>
       <p>
-      Onistep leverages a specially curated database and advanced algorithms to provide guidance that&apos;s twice as accurate as other AI solutions. Unlike general-purpose AIs, Onistep is dedicated to software instruction, ensuring you get precise, relevant answers every time. From basic tasks to complex operations, our accuracy means you can trust the guidance you receive. Experience the difference with Onistep&apos;s unparalleled precision.
+      Tried GPT-4 and felt lost when it came to software help? We’ve all been there. Onistep is built different. Unlike general AI, our assistant is laser-focused on your tools. With a massive internal database tailored to your software, Onistep doesn’t hallucinate buttons or paths—it knows your version, your setup, and stays updated with the latest features. 
       </p>
     </>
   );
   const descriptionMajor2 = (
     <>
       <p>
-      Navigating new software can be challenging, but with Onistep, you get real-time, interactive guides that make learning a breeze. No more switching tabs or searching for tutorials; Onistep shows you exactly where to click and what to do. Whether you&apos;re diving into Photoshop for the first time or exploring advanced features in Blender, our guides ensure you never feel lost. Experience the ease of mastering any software with precise, step-by-step instructions right within your application.
+      With Onistep, you get real-time guidance right inside your software. No more juggling between windows or losing focus by jumping to YouTube for a quick fix. Onistep shows you exactly where to click and explains why, all within your workspace. It’s like having a mentor right by your side, saving you time and keeping you in the flow! 
       </p>
     </>
   )
@@ -30,7 +30,7 @@ export default function InfoPages(){
       </div>
       <AppSlider />
       <div className="p-10">
-          <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Never leave your window", description:descriptionMajor2 ,imageRight:false }}/>
+          <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Never leave your task again to watch a tutorial on another tab!", description:descriptionMajor2 ,imageRight:false }}/>
         <div className="text-white">
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>
@@ -49,7 +49,7 @@ export default function InfoPages(){
             </Link>
           </center>
         </div>
-            <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Twice more accurate than GPT-4o", description:descriptionMajor ,imageRight:true }}/>
+            <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }}/>
 
       </div>
       <div className="text-center text-white">
