@@ -47,7 +47,7 @@ export default function Container({props}:{props:{header:string,description:Reac
                 <div className={`flex-col h-full w-full items-center font-fjalla justify-around  ${props.imageRight&&"order-1"} text-center col-span-2`}>
                     <h1 className="text-white text-4xl mt-5 mb-5 font-FjallaOne font-medium">{props.header}</h1>
                     <center>
-                        <p className="text-white font-3xl font-thin font-varela tracking-wide">{props.description}</p>
+                        <p className="text-white font-6xl font-regular font-varela tracking-wide">{props.description}</p>
                     </center>
                 </div>
             </div>
