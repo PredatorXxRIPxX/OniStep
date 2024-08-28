@@ -19,7 +19,7 @@ export default function Price(){
                 <PricingCard title="Business" subtitle="Unlock full functionality for teams and creators. " price="39.99$" features={['Software guidance - Unlimited','Onistep library','Course creation','Team management']} buttonText="Enroll now"/>
             </div>
             <h1 className='text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6'>Small Price , Great Value</h1>
-            <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>These Prices won &aep;t ever change</p>
+            <p className='text-2xl font-bold text-white text-center font-varela  mt-10'>These Prices won &apos;t ever change</p>
             <div className="p-10">
                 <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }} />
             </div>
