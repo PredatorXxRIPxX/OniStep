@@ -125,7 +125,7 @@ export const cardData = [
     {
         id:"10",
         title:"Ableton Live Courses",
-        iconUrl:"./assets/abilton.svg",
+        iconUrl:"./assets/abeltonlogo.png",
         imgUrl:"./courses/abilton.png",
         level:levelTypes.beginner,
     },
