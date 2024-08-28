@@ -55,7 +55,7 @@ export const cardData = [
     {
         id:"5",
         title:"Word Courses",
-        iconUrl:"/assets/word.png",
+        iconUrl:"/assets/wordlogo.png",
         imgUrl:"./courses/page8.jpg",
         level:levelTypes.beginner,
     },
