@@ -132,7 +132,7 @@ export const cardData = [
     {
         id:"11",
         title:"Pro Tools Courses",
-        iconUrl:"./assets/protools.svg",
+        iconUrl:"./assets/protools.png",
         imgUrl:"./courses/protools.svg",
         level:levelTypes.beginner,
     },
