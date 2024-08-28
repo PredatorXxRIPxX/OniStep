@@ -58,8 +58,8 @@ export default function Security(){
             <p className="font-varela text-xl p-4">
                 If you have any questions or concerns about this Security and Compliance Policy, please contact us:
                 <ul>
-                    <li><em>Email:</em> [Your Contact Email]</li>
-                    <li><em>Address:</em> [Your Company Address]</li>
+                    <li><em>Email:</em> contact@onistep.com</li>
+                    <li><em>Address:</em> 3 rue toulouse lautrec 91000 Evry </li>
                 </ul>
                 By using our website and software, you acknowledge that you have read and understood this Security and Compliance Policy.<br/> Thank you for trusting Onistep with your information.
             </p>
