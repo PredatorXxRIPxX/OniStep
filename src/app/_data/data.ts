@@ -118,7 +118,7 @@ export const cardData = [
     {
         id:"9",
         title:"Audacity Courses",
-        iconUrl:"./assets/audacity.svg",
+        iconUrl:"./assets/audacitylogo.png",
         imgUrl:"./courses/page17.jpg",
         level:levelTypes.beginner,
     },
