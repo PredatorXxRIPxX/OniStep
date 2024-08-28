@@ -62,7 +62,7 @@ export const cardData = [
     {
         id:"17",
         title:"PowerPoint Courses",
-        iconUrl:"/assets/powerpoint.svg",
+        iconUrl:"/assets/powerlogo.png",
         imgUrl:"./courses/page9.jpg",
         level:levelTypes.beginner,
     },
@@ -83,7 +83,7 @@ export const cardData = [
     {
         id:"20",
         title:"SolidWorks Courses",
-        iconUrl:"./assets/solidwork.svg",
+        iconUrl:"./assets/solidlogo.png",
         imgUrl:"./courses/solidwork.svg",
         level:levelTypes.beginner,
     },
@@ -111,7 +111,7 @@ export const cardData = [
     {
         id:"8",
         title:"HitFilm Courses",
-        iconUrl:"./assets/hitfilm.svg",
+        iconUrl:"./assets/hitfilm.png",
         imgUrl:"./courses/hitfilm.svg",
         level:levelTypes.beginner,
     },
