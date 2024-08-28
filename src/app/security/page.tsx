@@ -28,7 +28,7 @@ export default function Security(){
                 </ul>
             </p>
 
-            <h1>Incident Response</h1>
+            <h1 className="font-varela text-4xl p-4">Incident Response</h1>
             <p className="font-varela text-xl p-4">
                 In the event of a data breach or security incident, we have a robust incident response plan in place:
                 <ul>
