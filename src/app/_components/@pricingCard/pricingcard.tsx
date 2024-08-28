@@ -49,7 +49,7 @@ export default function PricingCard({
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Features:
       </h1>
-      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 mb-2 list-none text-center lg:text-left  ml-4 lg:ml-10">
+      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 ml-4 list-none lg:list-inside">
         <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
           <svg
               xmlns="http://www.w3.org/2000/svg"
