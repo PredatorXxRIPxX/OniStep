@@ -48,14 +48,14 @@ export const cardData = [
     {
         id:"3",
         title:"Unreal Engine Courses",
-        iconUrl:"/assets/unrealengine.svg",
+        iconUrl:"/assets/unreal.png",
         imgUrl:"./courses/unreal.svg",
         level:levelTypes.beginner,
     },
     {
         id:"5",
         title:"Word Courses",
-        iconUrl:"/assets/word.svg",
+        iconUrl:"/assets/word.png",
         imgUrl:"./courses/page8.jpg",
         level:levelTypes.beginner,
     },
@@ -90,7 +90,7 @@ export const cardData = [
     {
         id:"21",
         title:"Maya Courses",
-        iconUrl:"./assets/maya.svg",
+        iconUrl:"./assets/maya.png",
         imgUrl:"./courses/maya.svg",
         level:levelTypes.beginner,
     },
