@@ -97,7 +97,7 @@ export default function Contact() {
             Let&apos;s have a talk
           </h1>
           <p className="font-varela font-normal text-2xl mt-6 mb-6 lg:w-3/4 ml-8 text-center lg:text-left">
-            Contact us with any questions or to report any issues. We're here to help you and appreciate the feedback! 
+            Contact us with any questions or to report any issues. We&apos; re here to help you and appreciate the feedback! 
           </p>
           <div className="flex-col justify-start">
             {bubblesContainers.map((item, index) => (
