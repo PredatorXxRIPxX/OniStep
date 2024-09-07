@@ -177,10 +177,10 @@ export const imagesUrl = [
     "./assets/image 7.svg",
     "./assets/image 8.svg",
     "./assets/image 9.svg",
-    "./assets/Excel-logo.png",
-    "./assets/Visual-Studio-Logo-2019.png",
-    "./assets/vsc.png",
-    "./assets/Unity-Symbol.png",
+    "/assets/Excel-logo.png",
+    "/assets/Visual-Studio-Logo-2019.png",
+    "/assets/vsc.png",
+    "/assets/Unity-Symbol.png",
 ]
 
 export interface ChapterDescription {

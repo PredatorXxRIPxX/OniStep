@@ -1,10 +1,12 @@
+import { ReactNode } from "react";
 import Btn from "../btn/btn";
 
 interface CardType {
   title: string;
   subtitle: string;
   price: string;
-  features: string[];
+  features: ReactNode[];
+  includes: ReactNode[];
   buttonText: string;
 }
 
@@ -12,6 +14,7 @@ export default function PricingCard({
   title,
   subtitle,
   price,
+  includes,
   features,
   buttonText,
 }: CardType) {
@@ -37,84 +40,21 @@ export default function PricingCard({
         Includes:
       </h1>
       <ul className="text-lg font-medium font-varela text-gray-600 mt-2 list-none text-center lg:text-left lg:list-disc ml-4 lg:ml-10">
-        {features.map((feature, index) => (
-          <li
-            key={index}
-          >
-            {feature}
+        {includes.map((item, index) => (
+          <li key={index} className="pt-1 pb-1">
+            {item}
           </li>
         ))}
-        
       </ul>
       <h1 className="text-lg font-semibold font-varela mt-4 ml-4 text-gray-700 text-center lg:text-left">
         Features:
       </h1>
-      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 ml-4 list-none lg:list-inside">
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-7 text-[#6A30B2] font-semibold mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 12.75 6 6 9-13.5"
-              />
-            </svg>
-          Guided navigation through software
-        </li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-7 text-[#6A30B2] font-semibold mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 12.75 6 6 9-13.5"
-              />
-            </svg>
-          Access to dozens of course</li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-7 text-[#6A30B2] font-semibold mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 12.75 6 6 9-13.5"
-              />
-            </svg>
-          Advanced course creation tools</li>
-        <li className="pt-1 pb-1 flex items-center justify-center lg:justify-start text-sm">
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-7 text-[#6A30B2] font-semibold mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 12.75 6 6 9-13.5"
-              />
-            </svg>
-          Course management for groups</li>
+      <ul className="text-lg font-medium font-varela text-gray-600 mt-2 list-none text-center lg:text-left lg:list-disc ml-4 lg:ml-10">
+        {features.map((item, index) => (
+          <li key={index} className="pt-1 pb-1 flex items-center">
+            {item}
+          </li>
+        ))}
       </ul>
     </div>
   );

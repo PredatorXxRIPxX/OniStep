@@ -11,7 +11,7 @@ export default function InfoPages(){
   const descriptionMajor = (
     <>
       <p>
-      Tried GPT-4 and felt lost when it came to software help? We’ve all been there. Onistep is built different. Unlike general AI, our assistant is laser-focused on your tools. With a massive internal database tailored to your software, Onistep doesn’t hallucinate buttons or paths—it knows your version, your setup, and stays updated with the latest features. 
+      Tried GPT-4 and felt lost when it came to software help? We&apos;ve all been there. Onistep is built different. Unlike general AI, our assistant is laser-focused on your tools. With a massive internal database tailored to your software, Onistep doesn’t hallucinate buttons or paths—it knows your version, your setup, and stays updated with the latest features. 
       </p>
     </>
   );
