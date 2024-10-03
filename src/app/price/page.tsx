@@ -96,7 +96,7 @@ export default function Price() {
                         withCheckDecoration("Advanced course creation tools"),
                         withCheckDecoration("Course management for groups")
                     ]}
-                    buttonText="Enroll now"
+                    buttonText="Contact Us"
                 />
             </div>
             <h1 className="text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6">
