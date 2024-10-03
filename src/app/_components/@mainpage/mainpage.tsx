@@ -2,10 +2,11 @@
 import ReactAwesomeTypewriter from "react-awesome-typewriter";
 import {motion} from "framer-motion";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 function Mainpage() {
     const [isIntro, setIsIntro] = useState(true);
-
+    const route = useRouter()
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsIntro(false);
@@ -51,6 +52,7 @@ function Mainpage() {
             </motion.p>
             <center className="hidden lg:block">
                 <motion.button
+                    onClick={() => route.push('/onistepinstaller.exe')}
                     className="hidden lg:flex lg:items-center lg:mt-10 lg:px-6 lg:py-3 lg:font-bold lg:text-white lg:bg-opacity-20 lg:bg-white lg:rounded-lg lg:shadow-lg lg:backdrop-blur lg:hover:bg-opacity-30 lg:transition-all lg:duration-300"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}

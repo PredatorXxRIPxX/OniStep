@@ -1,13 +1,17 @@
+"use client"
 import React from "react";
 import Container from "../_components/@container/container";
 import PricingCard from "../_components/@pricingCard/pricingcard";
 import Btn from "../_components/btn/btn";
+import { useRouter } from "next/navigation";
 
 const descriptionMajor = (
     <>
       Tried GPT-4 and felt lost when it came to software help? We’ve all been there. Onistep is built different. Unlike general AI, our assistant is laser-focused on your tools. With a massive internal database tailored to your software, Onistep doesn’t hallucinate buttons or paths—it knows your version, your setup, and stays updated with the latest features. 
     </>
 );
+
+
 
 const checkDecoration = (
     <svg
@@ -35,6 +39,7 @@ const withCheckDecoration = (text:any, isLineThrough = false) => {
 };
 
 export default function Price() {
+    const route = useRouter();
     return (
         <div className="mt-20">
             <h1 className="text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6">
@@ -113,7 +118,9 @@ export default function Price() {
                 <div className="h-10"></div>
                 <p className="font-normal text-5xl font-FjallaOne mb-8">Try it yourself!</p>
                 <div className="mt-15 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
-                    <Btn text="Download now" />
+                    <div onClick = {()=>route.push('/onistepinstaller.exe')}>
+                        <Btn text="Download now" />
+                    </div>
                 </div>
             </div>
         </div>

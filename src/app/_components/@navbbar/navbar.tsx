@@ -4,8 +4,10 @@ import Btn from '../btn/btn';
 import Onistep from '../../../../public/assets/LOGOseullarge 1.svg';
 import { useState,useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 function Navbar() {
+    const route = useRouter();
     const [isMenuOpen, setMenuOpen] = useState(false);
     const [blured, setBlured] = useState(false);
 
@@ -81,7 +83,9 @@ function Navbar() {
                                 <Link href="/contact" className="text-xl font-semibold">Contact</Link>
                             </li>
                             <li className="py-2 w-full flex items-center justify-center">
-                                <Btn text="Get started" />
+                                <div onClick={()=>route.push('/onistepinstaller.exe')}>
+                                    <Btn text="Get started" />
+                                </div>
                             </li>
                         </ul>
                     </div>

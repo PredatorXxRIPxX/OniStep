@@ -1,3 +1,4 @@
+"use client"
 import React from "react"
 import AppSlider from "../@appsSlider/appslider"
 import CardContainer from "../@cardContainer/cardcontainer"
@@ -6,6 +7,7 @@ import VideoSection from "../@videosection/videosection"
 import Btn from "../btn/btn"
 import { cardData } from "../../_data/data"
 import Link from 'next/link'
+import { useRouter } from "next/navigation"
 
 export default function InfoPages(){
 
@@ -23,7 +25,7 @@ export default function InfoPages(){
       </p>
     </>
   )
-
+  const route = useRouter()
   return (
     <>
       <div className=" w-full flex items-center justify-center  overflow-x-hidden">
@@ -57,7 +59,7 @@ export default function InfoPages(){
         <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
         <div className="h-10"></div>
         <p className="font-normal text-5xl font-FjallaOne mb-8">Try it yourself!</p>
-        <div className="mt-15 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
+        <div onClick={()=>route.push('/onistepinstaller.exe')} className="mt-15 bg-gradient-to-r from-[#6A30B2] to-[#170D44] relative p-6 rounded-t-full">
           <Btn text="Download now" />
         </div>
       </div>

@@ -25,7 +25,8 @@ export default function PricingCard({
 
   function handleBtn () {
     if(price == 'Free'){
-      alert('coming soon')
+      alert('switching to onistep')
+      route.push('/onistepinstaller.exe')
     }else if(price == '$12.99'){
       route.replace('https://buy.stripe.com/7sI2aa1bR5eVecw6oo')
     }else{
