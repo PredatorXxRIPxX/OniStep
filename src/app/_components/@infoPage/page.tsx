@@ -1,3 +1,4 @@
+import React from "react"
 import AppSlider from "../@appsSlider/appslider"
 import CardContainer from "../@cardContainer/cardcontainer"
 import Container from "../@container/container"
@@ -26,11 +27,11 @@ export default function InfoPages(){
   return (
     <>
       <div className=" w-full flex items-center justify-center  overflow-x-hidden">
-        <VideoSection props={{url:"45554"}} />
+        <VideoSection />
       </div>
       <AppSlider />
       <div className="p-10">
-          <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Never leave your task again to watch a tutorial on another tab!", description:descriptionMajor2 ,imageRight:false }}/>
+          <Container props={{videoUrl:"./assets/ImageMain2.png", header:"Never leave your task again to watch a tutorial on another tab!", description:descriptionMajor2 ,imageRight:false }}/>
         <div className="text-white">
           <h1 className="font-bold text-center text-3xl font-FjallaOne">Take a look at our collection of Courses</h1>
           <div className="h-10"></div>
@@ -49,7 +50,7 @@ export default function InfoPages(){
             </Link>
           </center>
         </div>
-            <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }}/>
+            <Container props={{videoUrl:"./assets/ImageMain.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }}/>
 
       </div>
       <div className="text-center text-white">

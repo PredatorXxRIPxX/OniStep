@@ -1,3 +1,4 @@
+import React from "react";
 import Mainpage from "./_components/@mainpage/mainpage";
 import InfoPages from "./_components/@infoPage/page";
 import { Suspense } from "react";

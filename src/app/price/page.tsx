@@ -1,3 +1,4 @@
+import React from "react";
 import Container from "../_components/@container/container";
 import PricingCard from "../_components/@pricingCard/pricingcard";
 import Btn from "../_components/btn/btn";
@@ -105,7 +106,7 @@ export default function Price() {
                 These Prices won&apos;t ever change
             </p>
             <div className="p-10">
-            <Container props={{videoUrl:"./assets/bonnetaille.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }} />
+            <Container props={{videoUrl:"./assets/ImageMain.png", header:"Onistep is Twice as Accurate as GPT-4 on Software-Related Questions!", description:descriptionMajor ,imageRight:true }} />
             </div>
             <div className="text-center text-white">
                 <p className="font-medium text-2xl font-varela">What are you waiting for?</p>
