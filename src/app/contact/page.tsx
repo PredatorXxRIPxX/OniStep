@@ -1,6 +1,5 @@
 "use client";
 import React, { ReactNode, useState,useEffect } from "react";
-import { postToEmail } from "./Route/route";
 
 type BubblesInfo = {
   icon: ReactNode;
@@ -92,7 +91,18 @@ export default function Contact() {
   const [handleBtn, setHandleBtn] = useState<any>(false);
   useEffect(() => {
     const sendMail = async () =>{
-      const response = await postToEmail(email, message);
+      const params = new URLSearchParams(
+        {
+            email: email,
+            message: message
+        }
+    ).toString()
+      const response = await fetch(`https://onistep.com/OniStep/php/api_formulaire?${params}`, {
+        method: "GET",
+        headers: {
+        "Content-Type": "application/json",
+        },
+    });
       if(response.status === 200){
         alert('Email sent successfully')
       }
