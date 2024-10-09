@@ -24,7 +24,7 @@ function Mainpage() {
 
     
     return (
-        <div className="text-center mb-20 mt-20 font-FjallaOne">
+        <div className="text-center mb-20 mt-18 font-FjallaOne">
             <motion.h1 className="text-5xl  lg:text-7xl lg:text-center text-white lg:font-medium">
                 Let us guide your clicks,
                 <br />

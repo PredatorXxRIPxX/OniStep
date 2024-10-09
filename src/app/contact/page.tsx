@@ -1,5 +1,6 @@
 "use client";
-import React, { ReactNode, useState } from "react";
+import React, { ReactNode, useState,useEffect } from "react";
+import { postToEmail } from "./Route/route";
 
 type BubblesInfo = {
   icon: ReactNode;
@@ -88,6 +89,20 @@ export default function Contact() {
   const [email, setEmail] = useState<string>("");
   const [object, setObject] = useState<string>("");
   const [message, setMessage] = useState<string>("");
+  const [handleBtn, setHandleBtn] = useState<any>(false);
+  useEffect(() => {
+    const sendMail = async () =>{
+      const response = await postToEmail(email, message);
+      if(response.status === 200){
+        alert('Email sent successfully')
+      }
+      console.log(response)
+    }
+    if(handleBtn){
+      sendMail()
+    }
+
+  },[handleBtn])
 
   return (
     <>
@@ -143,7 +158,7 @@ export default function Contact() {
               />
             </div>
             <div className="mt-4 flex items-center justify-center">
-              <button className="bg-gradient-to-r from-[#6A30B2] to-[#170D44] text-white pl-10 pr-10 pt-4 pb-4 rounded-2xl ml-4 mr-4 font-semibold duration-300 transition-all hover:scale-125">
+              <button onClick={()=>setHandleBtn(true)} className="bg-gradient-to-r from-[#6A30B2] to-[#170D44] text-white pl-10 pr-10 pt-4 pb-4 rounded-2xl ml-4 mr-4 font-semibold duration-300 transition-all hover:scale-125">
                 Send
               </button>
             </div>

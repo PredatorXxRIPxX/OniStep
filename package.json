@@ -18,7 +18,7 @@
     "@mui/icons-material": "^5.16.4",
     "@mui/material": "^5.16.1",
     "framer-motion": "^11.3.7",
-    "next": "14.2.4",
+    "next": "^14.2.15",
     "react": "^18",
     "react-awesome-typewriter": "^1.0.7",
     "react-dom": "^18",
