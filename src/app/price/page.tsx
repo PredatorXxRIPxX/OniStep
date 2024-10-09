@@ -54,7 +54,7 @@ export default function Price() {
                     subtitle="Perfect for getting started with basic guidance."
                     price="Free"
                     includes={[
-                        <p key={0} >Software guidance - 10 tutorials per day</p>,
+                        <p key={0} >Software guidance - 100 tutorials</p>,
                         <p key={1} className="line-through" >OniStep library</p>,
                         <p key={2} className="line-through" >Course creation</p>,
                         <p key={3} className="line-through" >Team management</p>
@@ -65,7 +65,7 @@ export default function Price() {
                         withCheckDecoration("Advanced course creation tools", true),
                         withCheckDecoration("Course management for groups", true)
                     ]}
-                    buttonText="Enroll now"
+                    buttonText="Start Free Trial"
                 />
                 <PricingCard
                     title="Starter"
@@ -83,7 +83,7 @@ export default function Price() {
                         withCheckDecoration("Advanced course creation tools", true),
                         withCheckDecoration("Course management for groups", true)
                     ]}
-                    buttonText="Enroll now"
+                    buttonText="Continue With Starter"
                 />
                 <PricingCard
                     title="Business"
@@ -101,7 +101,7 @@ export default function Price() {
                         withCheckDecoration("Advanced course creation tools"),
                         withCheckDecoration("Course management for groups")
                     ]}
-                    buttonText="Contact Us"
+                    buttonText="Contact Sales"
                 />
             </div>
             <h1 className="text-7xl font-normal text-white text-center font-FjallaOne mt-8 mb-6">
