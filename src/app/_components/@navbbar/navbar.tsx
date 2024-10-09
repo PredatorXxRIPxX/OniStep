@@ -82,7 +82,7 @@ function Navbar() {
                             <li className="py-2 w-full">
                                 <Link href="/contact" className="text-xl font-semibold">Contact</Link>
                             </li>
-                            <li className="py-2 w-full flex items-center justify-center">
+                            <li className="py-2 w-full flex items-center justify-center" onClick={()=>route.push('/onistepinstaller.exe')}>
                                 <div onClick={()=>route.push('/onistepinstaller.exe')}>
                                     <Btn text="Get started" />
                                 </div>
